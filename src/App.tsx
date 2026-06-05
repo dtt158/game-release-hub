@@ -179,7 +179,7 @@ export function App() {
           {data.health.sources.map((source) => (
             <div className="source-row" key={source.name}>
               <span>{source.name}</span>
-              <strong>{source.status}</strong>
+              <strong className={`source-status source-status-${source.status}`}>{source.status}</strong>
               <p>{source.message}</p>
             </div>
           ))}

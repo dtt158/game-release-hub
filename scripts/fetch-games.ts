@@ -16,23 +16,22 @@ type SourceStatus = SourceHealth["sources"][number];
 // Type definitions
 // ---------------------------------------------------------------------------
 
-interface IgdbReleaseDate {
+// Query the games endpoint (not release_dates): each record = 1 unique game with all its release dates.
+// This prevents a single month with many platform×region combos from exhausting the 1500-record quota.
+interface IgdbGame {
   id: number;
-  date?: number;
-  human?: string;
-  region?: number;
-  platform?: { name?: string };
-  game?: {
-    id: number;
-    name: string;
-    slug?: string;
-    summary?: string;
-    storyline?: string;
-    cover?: { url?: string };
-    genres?: Array<{ name: string }>;
-    platforms?: Array<{ name: string }>;
-    websites?: Array<{ url: string; category?: number }>;
-  };
+  name: string;
+  slug?: string;
+  summary?: string;
+  storyline?: string;
+  cover?: { url?: string };
+  genres?: Array<{ name: string }>;
+  platforms?: Array<{ name: string }>;
+  websites?: Array<{ url: string; category?: number }>;
+  release_dates?: Array<{
+    date?: number;
+    region?: number;
+  }>;
 }
 
 interface RawgGame {
@@ -245,49 +244,51 @@ async function readIgdb(statuses: SourceStatus[]): Promise<GameEntry[]> {
     if (!tokenResponse.ok) throw new Error(`Twitch auth ${tokenResponse.status}`);
     const token = (await tokenResponse.json()) as { access_token: string };
 
-    const start = Math.floor(new Date(bounds.rangeStart).getTime() / 1000);
-    const end = Math.floor(new Date(bounds.rangeEnd).getTime() / 1000);
+    const startTs = Math.floor(new Date(bounds.rangeStart).getTime() / 1000);
+    const endTs = Math.floor(new Date(bounds.rangeEnd).getTime() / 1000);
     const headers = {
       Accept: "application/json",
       "Client-ID": clientId,
       Authorization: `Bearer ${token.access_token}`,
     };
 
-    const allReleases: IgdbReleaseDate[] = [];
+    // Query the games endpoint: 1 record = 1 unique game (with all its release dates embedded).
+    // Avoids the pagination exhaustion bug where one month's per-platform release_dates records
+    // fill all 1500 slots before subsequent months are reached.
+    const allGames: IgdbGame[] = [];
     const pageSize = 500;
-    const maxPages = 3;
+    const maxPages = 4;
 
     for (let page = 0; page < maxPages; page++) {
       const body = [
-        "fields date,human,region,platform.name,game.id,game.name,game.slug,game.summary,game.storyline,game.cover.url,game.genres.name,game.platforms.name,game.websites.url,game.websites.category;",
-        `where date >= ${start} & date <= ${end} & game.category = 0;`,
-        "sort date asc;",
+        "fields id,name,slug,summary,storyline,cover.url,genres.name,platforms.name,",
+        "release_dates.date,release_dates.region,",
+        "websites.url,websites.category;",
+        `where release_dates.date >= ${startTs} & release_dates.date <= ${endTs} & category = 0;`,
+        "sort first_release_date asc;",
         `limit ${pageSize};`,
         `offset ${page * pageSize};`,
       ].join(" ");
 
-      const response = await fetch("https://api.igdb.com/v4/release_dates", {
+      const response = await fetch("https://api.igdb.com/v4/games", {
         method: "POST",
         headers,
         body,
       });
       if (!response.ok) throw new Error(`IGDB page ${page}: ${response.status}`);
 
-      const releases = (await response.json()) as IgdbReleaseDate[];
-      allReleases.push(...releases);
-      if (releases.length < pageSize) break;
+      const games = (await response.json()) as IgdbGame[];
+      allGames.push(...games);
+      if (games.length < pageSize) break;
     }
 
     statuses.push({
       name: "IGDB",
       status: "ok",
-      message: `读取 ${allReleases.length} 条发售日期记录`,
+      message: `读取 ${allGames.length} 款游戏`,
     });
 
-    return allReleases
-      .filter((release) => release.game)
-      .map((release) => mapIgdbRelease(release))
-      .filter(Boolean) as GameEntry[];
+    return allGames.map(mapIgdbGame).filter(Boolean) as GameEntry[];
   } catch (error) {
     statuses.push({
       name: "IGDB",
@@ -860,25 +861,23 @@ function mapTgdbGame(game: TgdbGame, include: TgdbInclude): GameEntry | null {
 // Shared mappers (IGDB / RAWG / Steam)
 // ---------------------------------------------------------------------------
 
-function mapIgdbRelease(release: IgdbReleaseDate): GameEntry | null {
-  if (!release.game) return null;
-
-  const game = release.game;
-  const platforms = normalizePlatformObjects([
-    ...(game.platforms?.map((platform) => platform.name) ?? []),
-    release.platform?.name,
-  ]);
+function mapIgdbGame(game: IgdbGame): GameEntry | null {
+  const platforms = normalizePlatformObjects(game.platforms?.map((p) => p.name) ?? []);
   if (platforms.length === 0) return null;
 
-  const date = release.date ? new Date(release.date * 1000).toISOString().slice(0, 10) : null;
-  const releases = [
-    {
-      region: mapIgdbRegion(release.region),
-      date,
-      status: date ? "confirmed" : "tbd",
+  const startTs = Math.floor(new Date(bounds.rangeStart).getTime() / 1000);
+  const endTs = Math.floor(new Date(bounds.rangeEnd).getTime() / 1000);
+
+  const releases = (game.release_dates ?? [])
+    .filter((rd) => rd.date && rd.date >= startTs && rd.date <= endTs)
+    .map((rd) => ({
+      region: mapIgdbRegion(rd.region),
+      date: new Date(rd.date! * 1000).toISOString().slice(0, 10),
+      status: "confirmed" as const,
       source: "IGDB",
-    },
-  ] satisfies GameEntry["releases"];
+    }));
+
+  if (releases.length === 0) return null;
 
   return {
     id: `igdb-${game.id}`,
@@ -887,7 +886,7 @@ function mapIgdbRelease(release: IgdbReleaseDate): GameEntry | null {
     slug: game.slug ?? slugify(game.name),
     coverUrl: normalizeIgdbImage(game.cover?.url),
     summary: game.summary || game.storyline || "暂无简介。",
-    genres: game.genres?.map((genre) => genre.name) ?? [],
+    genres: game.genres?.map((g) => g.name) ?? [],
     platforms,
     releaseMonth: monthFromReleases(releases),
     releases,
@@ -1021,7 +1020,7 @@ function normalizeIgdbImage(url?: string): string | undefined {
   return httpsUrl.replace("t_thumb", "t_cover_big");
 }
 
-function mapIgdbLinks(websites: NonNullable<IgdbReleaseDate["game"]>["websites"] = []): GameLink[] {
+function mapIgdbLinks(websites: Array<{ url: string; category?: number }> = []): GameLink[] {
   const labelByCategory: Record<number, string> = {
     1: "官网",
     13: "Steam",

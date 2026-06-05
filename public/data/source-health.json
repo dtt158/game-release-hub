@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-05T09:15:22.116Z",
-  "mode": "partial",
+  "generatedAt": "2026-06-05T14:41:40.631Z",
+  "mode": "live",
   "sources": [
     {
       "name": "IGDB",
@@ -13,9 +13,19 @@
       "message": "未配置 RAWG_API_KEY"
     },
     {
+      "name": "GiantBomb",
+      "status": "missing-key",
+      "message": "未配置 GIANTBOMB_API_KEY（giantbomb.com/api 免费申请）"
+    },
+    {
+      "name": "Famitsu",
+      "status": "ok",
+      "message": "读取 143 款游戏（JP 发售日历，共 7 个月）"
+    },
+    {
       "name": "Steam",
       "status": "ok",
-      "message": "读取 12 款即将发售游戏（us/jp/cn 区）"
+      "message": "读取 15 款即将发售游戏（us/jp/cn 区）"
     }
   ]
 }

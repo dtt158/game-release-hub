@@ -184,7 +184,7 @@ export function App() {
             </div>
           ))}
           <p className="attribution">
-            数据来源：IGDB · RAWG · Steam。RAWG 数据和图片需保留来源链接；IGDB/RAWG 密钥配置在 GitHub Actions Secrets 中；Steam 数据免费获取，覆盖 US/JP/CN 区。
+            数据来源：IGDB · RAWG · Steam · Famitsu · GiantBomb。其中 Famitsu 提供日本发售日历（免费），GiantBomb 需免费申请 API Key，RAWG 数据需保留来源链接。
           </p>
         </aside>
 

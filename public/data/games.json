@@ -1,57 +1,15 @@
 [
   {
-    "id": "steam-3634340",
-    "title": "吾皇万岁",
-    "titleOriginal": "吾皇万岁",
-    "slug": "",
-    "coverUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3634340/cc2c651962c92c4a93066b500e8715bdde1a7845/header_alt_assets_0_schinese.jpg?t=1780649798",
-    "summary": "这是一款科幻生存Roguelite游戏，本作将“弹幕肉鸽射击”的极限割草爽感，与“基地建造即时战略”的运筹帷幄融为一体。在这个充斥着异星敌潮的残酷战场上，你既能享受高机动走位、火力清屏的动作快感，也能通过即时规划自动化防御网，体验拔地建城、碾压一切的策略乐趣。",
+    "id": "steam-4182710",
+    "title": "Dustin Sunset",
+    "titleOriginal": "Dustin Sunset",
+    "slug": "dustin-sunset",
+    "coverUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4182710/6e686ceff2814acdbba513fafdccfa82aae94158/header.jpg?t=1780653708",
+    "summary": "A post-apocalyptic world, a bastion of hope, the wasteland gangs united to destroy it, and only one man crazy enough to try to save it. Dustin Sunset is a vertical shoot ’em up with a touch of bullet hell and a whole lot of love, made by fans of the genre for fans of the genre.",
     "genres": [
+      "动作",
       "独立",
-      "角色扮演",
-      "模拟",
-      "策略",
-      "动作",
-      "冒险",
-      "休闲"
-    ],
-    "platforms": [
-      "PC"
-    ],
-    "releaseMonth": "2026-06",
-    "releases": [
-      {
-        "region": "GLOBAL",
-        "date": "2026-06-05",
-        "status": "confirmed",
-        "source": "Steam"
-      }
-    ],
-    "links": [
-      {
-        "label": "Steam",
-        "url": "https://store.steampowered.com/app/3634340",
-        "kind": "store"
-      },
-      {
-        "label": "Steam",
-        "url": "https://store.steampowered.com/app/3324250",
-        "kind": "store"
-      }
-    ],
-    "sources": [
-      "Steam"
-    ]
-  },
-  {
-    "id": "steam-4271500",
-    "title": "Teacher Waifu",
-    "titleOriginal": "Teacher Waifu",
-    "slug": "teacher-waifu",
-    "coverUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4271500/71ca017a43262d1bc869b64403fd3d63e831b268/header.jpg?t=1770484817",
-    "summary": "《老师女神》是一款精彩的拼图游戏，以魅力四射的女神老师和独特的学术氛围为特色！完成30个独特的关卡，解锁新的插画，欣赏每位老师的时尚细节。",
-    "genres": [
-      "休闲"
+      "免费开玩"
     ],
     "platforms": [
       "PC"
@@ -68,7 +26,7 @@
     "links": [
       {
         "label": "Steam",
-        "url": "https://store.steampowered.com/app/4271500",
+        "url": "https://store.steampowered.com/app/4182710",
         "kind": "store"
       }
     ],
@@ -77,14 +35,16 @@
     ]
   },
   {
-    "id": "steam-4273560",
-    "title": "Teacher Waifu 18+",
-    "titleOriginal": "Teacher Waifu 18+",
-    "slug": "teacher-waifu-18",
-    "coverUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4273560/0d839de5ac9c3667e33a841f2a3289afc2edcc11/header.jpg?t=1777717210",
-    "summary": "向您的收藏中添加 20 个新关卡，其中包含 18 岁以上的动漫谜题、自动通过和已完成绘画的画廊。完成所有谜题，获得 20 项新成就并享受令人兴奋的成人内容！",
+    "id": "steam-4458460",
+    "title": "Dustin Sunset - Support Pack",
+    "titleOriginal": "Dustin Sunset - Support Pack",
+    "slug": "dustin-sunset-support-pack",
+    "coverUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4458460/25a0754156da6703abd377a3b5641a9c5ffed6a1/header.jpg?t=1780228721",
+    "summary": "Support Dustin Sunset and Unlock Additional Game Modes!",
     "genres": [
-      "休闲"
+      "动作",
+      "独立",
+      "免费开玩"
     ],
     "platforms": [
       "PC"
@@ -101,7 +61,7 @@
     "links": [
       {
         "label": "Steam",
-        "url": "https://store.steampowered.com/app/4273560",
+        "url": "https://store.steampowered.com/app/4458460",
         "kind": "store"
       }
     ],
@@ -110,16 +70,17 @@
     ]
   },
   {
-    "id": "steam-4072570",
-    "title": "Labyrinth's Depths",
-    "titleOriginal": "Labyrinth's Depths",
-    "slug": "labyrinths-depths",
-    "coverUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4072570/4f10187421c0c1ff3d6b2a45d226b1fb2af2be18/header.jpg?t=1780650007",
-    "summary": "Step into a dark survival horror rooted in Greek mythology. Navigate a deadly labyrinth and evade the relentless Minotaur while seeking a way to end the beast’s reign.",
+    "id": "steam-4738540",
+    "title": "Time to Love",
+    "titleOriginal": "Time to Love",
+    "slug": "time-to-love",
+    "coverUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4738540/8b730cee0b13f0f78f8b78169c6786dab2530f0c/header.jpg?t=1780598059",
+    "summary": "Time to Love is a 2D, top-down, co-op roguelike centered around two protagonists trying to keep reality from collapsing. You will traverse from timeline to timeline, strengthening yourself from each unique branch, seeking to bind what little remains after past mistakes.",
     "genres": [
       "动作",
       "冒险",
-      "独立"
+      "独立",
+      "角色扮演"
     ],
     "platforms": [
       "PC"
@@ -136,7 +97,7 @@
     "links": [
       {
         "label": "Steam",
-        "url": "https://store.steampowered.com/app/4072570",
+        "url": "https://store.steampowered.com/app/4738540",
         "kind": "store"
       }
     ],
@@ -145,47 +106,12 @@
     ]
   },
   {
-    "id": "steam-3791870",
-    "title": "Xeno Swarm - 异虫强袭",
-    "titleOriginal": "Xeno Swarm - 异虫强袭",
-    "slug": "xeno-swarm-",
-    "coverUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3791870/b6c63a3f72270bee1cab951f77e2af4c6a5a312b/header.jpg?t=1780277740",
-    "summary": "《异虫强袭》是一款硬核横版飞行射击游戏，和你的伙伴一起迎战铺天盖地的异形虫群，在异星战场上和巨型BOSS展开生死对决，重温子弹横飞的爽快！",
-    "genres": [
-      "动作",
-      "冒险",
-      "独立"
-    ],
-    "platforms": [
-      "PC"
-    ],
-    "releaseMonth": "2026-06",
-    "releases": [
-      {
-        "region": "GLOBAL",
-        "date": "2026-06-05",
-        "status": "confirmed",
-        "source": "Steam"
-      }
-    ],
-    "links": [
-      {
-        "label": "Steam",
-        "url": "https://store.steampowered.com/app/3791870",
-        "kind": "store"
-      }
-    ],
-    "sources": [
-      "Steam"
-    ]
-  },
-  {
-    "id": "steam-4733720",
-    "title": "Terminal Cursor Soundtrack",
-    "titleOriginal": "Terminal Cursor Soundtrack",
-    "slug": "terminal-cursor-soundtrack",
-    "coverUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4733720/0862dfcf759d30f0d8e36ae2a6e83569459b63bf/header.jpg?t=1779917066",
-    "summary": "Terminal Cursor Original Soundtrack delivers eight high‑energy electronic tracks by David‑Ștefan Horecica, crafted to match the game’s fast, chaotic, precision‑driven action. Intense rhythms and atmospheric builds capture pure speed and constant motion.",
+    "id": "steam-4458900",
+    "title": "Gensokyo Odyssey: Kakkoi's Laundromat Soundtrack",
+    "titleOriginal": "Gensokyo Odyssey: Kakkoi's Laundromat Soundtrack",
+    "slug": "gensokyo-odyssey-kakkois-laundromat-soundtrack",
+    "coverUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4458900/30c28210e27a0f431250d5f6da472f27a157bcd1/header.jpg?t=1779371664",
+    "summary": "Soundtrack for Gensokyo Odyssey: Kakkoi's Laundromat!",
     "genres": [],
     "platforms": [
       "PC"
@@ -202,7 +128,7 @@
     "links": [
       {
         "label": "Steam",
-        "url": "https://store.steampowered.com/app/4733720",
+        "url": "https://store.steampowered.com/app/4458900",
         "kind": "store"
       }
     ],
@@ -211,126 +137,14 @@
     ]
   },
   {
-    "id": "steam-4414550",
-    "title": "Peril in Prymkos",
-    "titleOriginal": "Peril in Prymkos",
-    "slug": "peril-in-prymkos",
-    "coverUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4414550/5753cee24f51f15af05294a36708e7e44b058b79/header.jpg?t=1776630333",
-    "summary": "Embark on a quest through the magical world of Prymkos. Explore ancient ruins, uncover hidden secrets, and face the mysterious Priests of Shaana in this story-driven fantasy RPG.",
-    "genres": [
-      "冒险",
-      "休闲",
-      "角色扮演"
-    ],
-    "platforms": [
-      "PC"
-    ],
-    "releaseMonth": "2026-06",
-    "releases": [
-      {
-        "region": "GLOBAL",
-        "date": "2026-06-05",
-        "status": "confirmed",
-        "source": "Steam"
-      }
-    ],
-    "links": [
-      {
-        "label": "官网",
-        "url": "https://www.dotkgaming.com/",
-        "kind": "official"
-      },
-      {
-        "label": "Steam",
-        "url": "https://store.steampowered.com/app/4414550",
-        "kind": "store"
-      }
-    ],
-    "sources": [
-      "Steam"
-    ]
-  },
-  {
-    "id": "steam-4627740",
-    "title": "Death Standing",
-    "titleOriginal": "Death Standing",
-    "slug": "death-standing",
-    "coverUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4627740/14687bb46004787be62072801da9c0d69f87af51/header.jpg?t=1779436135",
-    "summary": "Death Standing is the first of its kind 'Stand' type of game, where the player has to do nothing but hold still for a set amount of time.",
-    "genres": [
-      "休闲",
-      "独立",
-      "模拟"
-    ],
-    "platforms": [
-      "PC"
-    ],
-    "releaseMonth": "2026-06",
-    "releases": [
-      {
-        "region": "GLOBAL",
-        "date": "2026-06-05",
-        "status": "confirmed",
-        "source": "Steam"
-      }
-    ],
-    "links": [
-      {
-        "label": "Steam",
-        "url": "https://store.steampowered.com/app/4627740",
-        "kind": "store"
-      }
-    ],
-    "sources": [
-      "Steam"
-    ]
-  },
-  {
-    "id": "steam-4798790",
-    "title": "李商隐：青袍玉珂传 Demo",
-    "titleOriginal": "李商隐：青袍玉珂传 Demo",
-    "slug": "demo",
-    "coverUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4798790/29324e96520a88d53ee02a9798298e1fb199845c/header.jpg?t=1780503287",
-    "summary": "“涧底群松难见日，衰世文章不值钱。”这款古风恋爱文字冒险游戏，在晚唐历史的基础上进行了戏剧化改编。你将扮演李商隐这位才华横溢却命运多舛的贫寒少年，在恶劣的世道挣扎求存，在寒门与豪门的斗争中进行艰难抉择，一路上也会有红颜知己相伴。本作对于角色的塑造复杂立体，而非分出绝对的正邪。",
-    "genres": [
-      "角色扮演"
-    ],
-    "platforms": [
-      "PC"
-    ],
-    "releaseMonth": "2026-06",
-    "releases": [
-      {
-        "region": "GLOBAL",
-        "date": "2026-06-05",
-        "status": "confirmed",
-        "source": "Steam"
-      }
-    ],
-    "links": [
-      {
-        "label": "Steam",
-        "url": "https://store.steampowered.com/app/4798790",
-        "kind": "store"
-      }
-    ],
-    "sources": [
-      "Steam"
-    ]
-  },
-  {
-    "id": "steam-3420020",
-    "title": "Abyss Born",
-    "titleOriginal": "Abyss Born",
-    "slug": "abyss-born",
-    "coverUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3420020/6bcd749b2f6d3c3310696e48aacf598c2bab3592/header.jpg?t=1778445497",
-    "summary": "Abyss Born is a single-player dark action RPG with survival and dungeon crawler elements. Fight various monsters, explore dangerous dungeons, trade with allies and complete quests to face evil.",
+    "id": "steam-4537640",
+    "title": "Black Powder Box",
+    "titleOriginal": "Black Powder Box",
+    "slug": "black-powder-box",
+    "coverUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4537640/761fc5db2e0a27d50beb47bf06a17b1b3afe97c4/header.jpg?t=1780576229",
+    "summary": "Black Powder Box is a sandbox FPS focusing on PvE and EvE combat, a level editor, and both realistic and sci-fi environments. Create and play your own levels—or the ones built in-game. Join NPC factions in combat, solve traps and puzzles, and destroy things in your way!",
     "genres": [
       "动作",
-      "冒险",
-      "独立",
-      "角色扮演",
-      "策略",
       "抢先体验"
     ],
     "platforms": [
@@ -348,7 +162,7 @@
     "links": [
       {
         "label": "Steam",
-        "url": "https://store.steampowered.com/app/3420020",
+        "url": "https://store.steampowered.com/app/4537640",
         "kind": "store"
       }
     ],
@@ -357,13 +171,263 @@
     ]
   },
   {
-    "id": "steam-4806000",
-    "title": "Waiting for Heaven Demo",
-    "titleOriginal": "Waiting for Heaven Demo",
-    "slug": "waiting-for-heaven-demo",
-    "coverUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4806000/481c2597a79700248ecb5eb0f575d1746e839c1f/header.jpg?t=1780568923",
-    "summary": "Waiting for Heaven is a psychological first-person-horror experience about waiting at a lonely bus stop between life and death. Every decision counts. Your actions, patience, and behavior determine whether the final bus takes you to Heaven, Hell, or somewhere far worse.",
+    "id": "steam-4531490",
+    "title": "Missing Texture - Old Toys",
+    "titleOriginal": "Missing Texture - Old Toys",
+    "slug": "missing-texture-old-toys",
+    "coverUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4531490/f26f93d9f5a1e3e0c7dfbdf494c4927aa3b4f004/header.jpg?t=1777640259",
+    "summary": "A chilling horror game where looking after a house isn’t as straightforward as it seems. Complete tasks, solve puzzles and survive whatever lurks in the darkness… before it’s too late.",
     "genres": [
+      "动作",
+      "冒险",
+      "休闲",
+      "独立",
+      "策略",
+      "免费开玩"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "GLOBAL",
+        "date": "2026-06-05",
+        "status": "confirmed",
+        "source": "Steam"
+      }
+    ],
+    "links": [
+      {
+        "label": "Steam",
+        "url": "https://store.steampowered.com/app/4531490",
+        "kind": "store"
+      }
+    ],
+    "sources": [
+      "Steam"
+    ]
+  },
+  {
+    "id": "steam-4036540",
+    "title": "魅魔赐福 Succubless",
+    "titleOriginal": "魅魔赐福 Succubless",
+    "slug": "succubless",
+    "coverUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4036540/382e45271e2cc41e5ef68f2ebd6b81bbb473b2c1/header.jpg?t=1780660918",
+    "summary": "💋 欢迎来到“B/less”度假村——这里的工作人员美得令人窒息！巧妙出牌（字面意思），与性感美女展开浪漫邂逅，揭开度假村罪恶的起源，并为你的命运赌上一把。🔥🌴",
+    "genres": [
+      "冒险",
+      "休闲",
+      "独立"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "GLOBAL",
+        "date": "2026-06-05",
+        "status": "confirmed",
+        "source": "Steam"
+      }
+    ],
+    "links": [
+      {
+        "label": "Steam",
+        "url": "https://store.steampowered.com/app/4036540",
+        "kind": "store"
+      }
+    ],
+    "sources": [
+      "Steam"
+    ]
+  },
+  {
+    "id": "steam-4131940",
+    "title": "Shattered Chess",
+    "titleOriginal": "Shattered Chess",
+    "slug": "shattered-chess",
+    "coverUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4131940/778b31c3f726f01e4da710e79d69ca7b70e42477/header.jpg?t=1780488511",
+    "summary": "构建超大型连击，打造打破游戏平衡的协同组合，并在改变规则的 Boss 战中生存下来——这是国际象棋的快节奏 Roguelike 变体。",
+    "genres": [
+      "休闲",
+      "独立",
+      "体育",
+      "策略"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "GLOBAL",
+        "date": "2026-06-05",
+        "status": "confirmed",
+        "source": "Steam"
+      }
+    ],
+    "links": [
+      {
+        "label": "Steam",
+        "url": "https://store.steampowered.com/app/4131940",
+        "kind": "store"
+      }
+    ],
+    "sources": [
+      "Steam"
+    ]
+  },
+  {
+    "id": "steam-4605610",
+    "title": "Succubless - Animation Pack",
+    "titleOriginal": "Succubless - Animation Pack",
+    "slug": "succubless-animation-pack",
+    "coverUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4605610/a0228557d50f76ad947dc156c300bda423cb3a4e/header.jpg?t=1780661680",
+    "summary": "This Animations Pack contains all the fully voiced animations featured in the game in .mp4 format.",
+    "genres": [
+      "冒险",
+      "休闲",
+      "独立"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "GLOBAL",
+        "date": "2026-06-05",
+        "status": "confirmed",
+        "source": "Steam"
+      }
+    ],
+    "links": [
+      {
+        "label": "Steam",
+        "url": "https://store.steampowered.com/app/4605610",
+        "kind": "store"
+      }
+    ],
+    "sources": [
+      "Steam"
+    ]
+  },
+  {
+    "id": "steam-4605620",
+    "title": "Succubless - Digital Artbook",
+    "titleOriginal": "Succubless - Digital Artbook",
+    "slug": "succubless-digital-artbook",
+    "coverUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4605620/0cafe09c5541e7581be7145f1c310b93238a750b/header.jpg?t=1780606787",
+    "summary": "This Digital Artbook contains all the information, artworks, sketches from Succubless!",
+    "genres": [
+      "冒险",
+      "休闲",
+      "独立"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "GLOBAL",
+        "date": "2026-06-05",
+        "status": "confirmed",
+        "source": "Steam"
+      }
+    ],
+    "links": [
+      {
+        "label": "Steam",
+        "url": "https://store.steampowered.com/app/4605620",
+        "kind": "store"
+      }
+    ],
+    "sources": [
+      "Steam"
+    ]
+  },
+  {
+    "id": "steam-4062600",
+    "title": "A Week in Paradise",
+    "titleOriginal": "A Week in Paradise",
+    "slug": "a-week-in-paradise",
+    "coverUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4062600/01a84b9c49e78e4187a0c8ec23a502bb37800426/header_schinese.jpg?t=1780669781",
+    "summary": "《桃源七日》是一款互动叙事解谜游戏。探索你抵达一家名为《帕拉迪斯》的酒吧的奇特经历，与酒吧里那位魅力四射的常客一起喝到天亮。每晚，在梦境中解开束缚记忆的线索。",
+    "genres": [
+      "冒险",
+      "休闲",
+      "独立"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "GLOBAL",
+        "date": "2026-06-05",
+        "status": "confirmed",
+        "source": "Steam"
+      }
+    ],
+    "links": [
+      {
+        "label": "Steam",
+        "url": "https://store.steampowered.com/app/4062600",
+        "kind": "store"
+      }
+    ],
+    "sources": [
+      "Steam"
+    ]
+  },
+  {
+    "id": "steam-3734700",
+    "title": "Wonder Warp",
+    "titleOriginal": "Wonder Warp",
+    "slug": "wonder-warp",
+    "coverUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734700/a4330a0daaeb7cd8ee2c25c72fe9d159feb8ccc0/header.jpg?t=1780668311",
+    "summary": "An Alien Threat Has Emerged in the City of Cynosure! Run and gun through a series of mazes to defeat the monsters.",
+    "genres": [
+      "动作",
+      "休闲",
+      "独立"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "GLOBAL",
+        "date": "2026-06-05",
+        "status": "confirmed",
+        "source": "Steam"
+      }
+    ],
+    "links": [
+      {
+        "label": "Steam",
+        "url": "https://store.steampowered.com/app/3734700",
+        "kind": "store"
+      }
+    ],
+    "sources": [
+      "Steam"
+    ]
+  },
+  {
+    "id": "steam-4285690",
+    "title": "Airport Security Sucks!",
+    "titleOriginal": "Airport Security Sucks!",
+    "slug": "airport-security-sucks",
+    "coverUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4285690/83c3f74745f699f49074f3e37b3795ded1ecc841/header.jpg?t=1780663394",
+    "summary": "化身权力上头的 TSA 探员，追捕那些试图混入人群、偷运违禁品通过安检的玩家。 用威严的语音指令控制人群和你那只麻烦不断的 K9，并使用“合规设备”逮捕那些捣乱或藏在眼皮底下的走私者！",
+    "genres": [
+      "动作",
       "休闲",
       "独立",
       "模拟"
@@ -383,12 +447,3432 @@
     "links": [
       {
         "label": "Steam",
-        "url": "https://store.steampowered.com/app/4806000",
+        "url": "https://store.steampowered.com/app/4285690",
         "kind": "store"
       }
     ],
     "sources": [
       "Steam"
+    ]
+  },
+  {
+    "id": "steam-4560270",
+    "title": "Rotten Chamber Demo",
+    "titleOriginal": "Rotten Chamber Demo",
+    "slug": "rotten-chamber-demo",
+    "coverUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560270/6e6b2a0a22debe4e725f156bfc47bdb341abaa1d/header.jpg?t=1777741870",
+    "summary": "A single-player logic puzzle disguised as social deduction. Read the claims of a corrupt city council, catch the liars and arrest them, but every wrong call brings you closer to losing it all.",
+    "genres": [
+      "休闲",
+      "独立",
+      "策略"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "GLOBAL",
+        "date": "2026-06-05",
+        "status": "confirmed",
+        "source": "Steam"
+      }
+    ],
+    "links": [
+      {
+        "label": "官网",
+        "url": "https://rottenchamber.com/",
+        "kind": "official"
+      },
+      {
+        "label": "Steam",
+        "url": "https://store.steampowered.com/app/4560270",
+        "kind": "store"
+      }
+    ],
+    "sources": [
+      "Steam"
+    ]
+  },
+  {
+    "id": "steam-4104960",
+    "title": "DripDrip - Adult Skin",
+    "titleOriginal": "DripDrip - Adult Skin",
+    "slug": "dripdrip-adult-skin",
+    "coverUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4104960/9d7026a95d59df47d26801bf3c015686d16cb376/header.jpg?t=1779460940",
+    "summary": "给你的游戏增添一些成熟的美感！",
+    "genres": [
+      "冒险",
+      "独立"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "GLOBAL",
+        "date": "2026-06-05",
+        "status": "confirmed",
+        "source": "Steam"
+      }
+    ],
+    "links": [
+      {
+        "label": "Steam",
+        "url": "https://store.steampowered.com/app/4104960",
+        "kind": "store"
+      }
+    ],
+    "sources": [
+      "Steam"
+    ]
+  },
+  {
+    "id": "fami-15037",
+    "title": "ファイナルファンタジーVII リバース",
+    "titleOriginal": "ファイナルファンタジーVII リバース",
+    "slug": "vii",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/151876/ahax7B2U?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo",
+      "Xbox"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-06-03",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49195",
+    "title": "eFootball Kick-Off!",
+    "titleOriginal": "eFootball Kick-Off!",
+    "slug": "efootball-kick-off",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/151962/ysAfxWpB?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-06-04",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-25024",
+    "title": "A列車で行こう9 Evolution",
+    "titleOriginal": "A列車で行こう9 Evolution",
+    "slug": "a9-evolution",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/152072/B9Eqtzph?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-06-04",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49224",
+    "title": "ジョン モーリー最後の事件簿",
+    "titleOriginal": "ジョン モーリー最後の事件簿",
+    "slug": "",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/152130/-uAHb6Jx?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "PlayStation",
+      "Nintendo",
+      "Xbox",
+      "PC"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-06-04",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49286",
+    "title": "くにおくんの熱血西遊記 天竺乱闘編 （ニンテンドーeショップ ダウンロード版）",
+    "titleOriginal": "くにおくんの熱血西遊記 天竺乱闘編 （ニンテンドーeショップ ダウンロード版）",
+    "slug": "e",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo",
+      "PlayStation",
+      "PC"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-06-04",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-50223",
+    "title": "John Carpenter’s Toxic Commando",
+    "titleOriginal": "John Carpenter’s Toxic Commando",
+    "slug": "john-carpenters-toxic-commando",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/154126/5Av--_DV?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "PlayStation"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-06-04",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-50534",
+    "title": "ZPF （ニンテンドーeショップ ダウンロード版）",
+    "titleOriginal": "ZPF （ニンテンドーeショップ ダウンロード版）",
+    "slug": "zpf-e",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-06-04",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49127",
+    "title": "Gothic 1 Remake （ダウンロード版）",
+    "titleOriginal": "Gothic 1 Remake （ダウンロード版）",
+    "slug": "gothic-1-remake",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Xbox",
+      "PC"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-06-06",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-50432",
+    "title": "盛世天下：女帝への道II （Steam版）",
+    "titleOriginal": "盛世天下：女帝への道II （Steam版）",
+    "slug": "ii-steam",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "PC"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-06-09",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49127",
+    "title": "Gothic 1 Remake （PS Store ダウンロード版）",
+    "titleOriginal": "Gothic 1 Remake （PS Store ダウンロード版）",
+    "slug": "gothic-1-remake-ps-store",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "PlayStation"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-06-11",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49192",
+    "title": "パワフルプロ野球2026-2027",
+    "titleOriginal": "パワフルプロ野球2026-2027",
+    "slug": "2026-2027",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/151934/DAt-pHFC?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo",
+      "PlayStation"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-06-11",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49239",
+    "title": "Unrailed 2:バック・オン・トラック",
+    "titleOriginal": "Unrailed 2:バック・オン・トラック",
+    "slug": "unrailed-2",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/152207/C_AqiK24?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo",
+      "PC",
+      "PlayStation"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-06-11",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-48900",
+    "title": "ダークオークション Nintendo Switch 2 Edition",
+    "titleOriginal": "ダークオークション Nintendo Switch 2 Edition",
+    "slug": "nintendo-switch-2-edition",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/152240/_xz2r9vj?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-06-11",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49953",
+    "title": "MONOPOLY：スター・ウォーズ ヒーロー vs ヴィラン",
+    "titleOriginal": "MONOPOLY：スター・ウォーズ ヒーロー vs ヴィラン",
+    "slug": "monopoly-vs",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/153497/gtOyvFC7?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo",
+      "PlayStation",
+      "Xbox",
+      "PC"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-06-11",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49235",
+    "title": "電車アタック （Steam版）",
+    "titleOriginal": "電車アタック （Steam版）",
+    "slug": "steam",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "PC"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-06-17",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-15249",
+    "title": "Severed Steel",
+    "titleOriginal": "Severed Steel",
+    "slug": "severed-steel",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/152334/pr-yL9UV?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "PlayStation",
+      "Nintendo"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-06-18",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49235",
+    "title": "Denshattack! （ニンテンドーeショップ ダウンロード版）",
+    "titleOriginal": "Denshattack! （ニンテンドーeショップ ダウンロード版）",
+    "slug": "denshattack-e",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-06-18",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49238",
+    "title": "inKONBINI: One Store. Many Stories",
+    "titleOriginal": "inKONBINI: One Store. Many Stories",
+    "slug": "inkonbini-one-store-many-stories",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/152199/2ouVwmiF?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo",
+      "PlayStation"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-06-18",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49321",
+    "title": "R-Type Dimensions III",
+    "titleOriginal": "R-Type Dimensions III",
+    "slug": "r-type-dimensions-iii",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/152403/WhDbVXhK?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo",
+      "PlayStation",
+      "Xbox"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-06-18",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-16081",
+    "title": "R-TYPE TACTICS I・II COSMOS （Steam版）",
+    "titleOriginal": "R-TYPE TACTICS I・II COSMOS （Steam版）",
+    "slug": "r-type-tactics-iii-cosmos-steam",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/128394/9Nz-9VV9?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "PC"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-06-19",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49980",
+    "title": "EA SPORTS UFC 6",
+    "titleOriginal": "EA SPORTS UFC 6",
+    "slug": "ea-sports-ufc-6",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/153670/28Vu28_K?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "PlayStation",
+      "Xbox"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-06-20",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-6000",
+    "title": "千銃士：Rhodoknight for Nintendo Switch",
+    "titleOriginal": "千銃士：Rhodoknight for Nintendo Switch",
+    "slug": "rhodoknight-for-nintendo-switch",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/150912/5J9FiOpN?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-06-25",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49116",
+    "title": "Blackish House ←sideZ -Retour-",
+    "titleOriginal": "Blackish House ←sideZ -Retour-",
+    "slug": "blackish-house-sidez-retour-",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/151681/9f0e-ot7?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-06-25",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49155",
+    "title": "Villion:Code（ヴィリオン：コード）",
+    "titleOriginal": "Villion:Code（ヴィリオン：コード）",
+    "slug": "villioncode",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/151803/oUnq9DtQ?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo",
+      "PlayStation"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-06-25",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-6397",
+    "title": "デッド オア アライブ 6 ラストラウンド （PS Store ダウンロード版）",
+    "titleOriginal": "デッド オア アライブ 6 ラストラウンド （PS Store ダウンロード版）",
+    "slug": "6-ps-store",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "PlayStation"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-06-25",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49225",
+    "title": "メダロット カードロボトル RB カブト Ver.",
+    "titleOriginal": "メダロット カードロボトル RB カブト Ver.",
+    "slug": "rb-ver",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/152133/oMuFWyYg?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-06-25",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49228",
+    "title": "Outbound",
+    "titleOriginal": "Outbound",
+    "slug": "outbound",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/152149/-jYcsHj5?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "PlayStation",
+      "Nintendo"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-06-25",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49233",
+    "title": "My little Puppy",
+    "titleOriginal": "My little Puppy",
+    "slug": "my-little-puppy",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/152173/w7ZluaMd?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-06-25",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-17886",
+    "title": "SAEKO: Giantess Dating Sim",
+    "titleOriginal": "SAEKO: Giantess Dating Sim",
+    "slug": "saeko-giantess-dating-sim",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/152191/lFLvJLns?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-06-25",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-48150",
+    "title": "ケムコRPGセレクション Vol.14",
+    "titleOriginal": "ケムコRPGセレクション Vol.14",
+    "slug": "rpg-vol14",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/152428/0UWvtQZZ?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-06-25",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-34900",
+    "title": "My Merry May with be",
+    "titleOriginal": "My Merry May with be",
+    "slug": "my-merry-may-with-be",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/153503/0QsosLSx?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-06-25",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49978",
+    "title": "Star Fox",
+    "titleOriginal": "Star Fox",
+    "slug": "star-fox",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/153653/izJF1nvS?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-06-25",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-27843",
+    "title": "ファーランドサーガ I サターントリビュート （PS Store ダウンロード版）",
+    "titleOriginal": "ファーランドサーガ I サターントリビュート （PS Store ダウンロード版）",
+    "slug": "i-ps-store",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "PlayStation"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-06-26",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-48944",
+    "title": "CRAZY CHA！N -エルピスの鎖-",
+    "titleOriginal": "CRAZY CHA！N -エルピスの鎖-",
+    "slug": "crazy-chan-",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/151100/K59cA00d?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo"
+    ],
+    "releaseMonth": "2026-07",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-07-09",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49189",
+    "title": "GRANBLUE FANTASY: Relink - Endless Ragnarok",
+    "titleOriginal": "GRANBLUE FANTASY: Relink - Endless Ragnarok",
+    "slug": "granblue-fantasy-relink-endless-ragnarok",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/151908/uSJSPCaD?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo",
+      "PlayStation",
+      "PC"
+    ],
+    "releaseMonth": "2026-07",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-07-09",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49226",
+    "title": "白き鋼鉄のX（イクス）1＋2 デュアルコレクション",
+    "titleOriginal": "白き鋼鉄のX（イクス）1＋2 デュアルコレクション",
+    "slug": "x12",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/152136/xykScQWW?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo",
+      "PlayStation",
+      "PC"
+    ],
+    "releaseMonth": "2026-07",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-07-09",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49244",
+    "title": "Echoes of Aincrad",
+    "titleOriginal": "Echoes of Aincrad",
+    "slug": "echoes-of-aincrad",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/152218/ney5PavW?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "PlayStation",
+      "Xbox"
+    ],
+    "releaseMonth": "2026-07",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-07-09",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-10321",
+    "title": "フォワード・トゥ・ザ・スカイ（Forward To The Sky）",
+    "titleOriginal": "フォワード・トゥ・ザ・スカイ（Forward To The Sky）",
+    "slug": "forward-to-the-sky",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/152429/0KQ_q3dC?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "PlayStation"
+    ],
+    "releaseMonth": "2026-07",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-07-09",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49951",
+    "title": "MOUSE： やとわれの探偵",
+    "titleOriginal": "MOUSE： やとわれの探偵",
+    "slug": "mouse",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/153484/9ZiLjPOP?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo",
+      "PlayStation"
+    ],
+    "releaseMonth": "2026-07",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-07-09",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49977",
+    "title": "アサシン クリード ブラック フラッグ Re:シンクロ",
+    "titleOriginal": "アサシン クリード ブラック フラッグ Re:シンクロ",
+    "slug": "re",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/153638/PKlK6_pA?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "PlayStation",
+      "Xbox",
+      "PC"
+    ],
+    "releaseMonth": "2026-07",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-07-09",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49989",
+    "title": "ムーンライト・ピークス -ヴァンパイアのゴシックライフ-",
+    "titleOriginal": "ムーンライト・ピークス -ヴァンパイアのゴシックライフ-",
+    "slug": "-",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/153737/9hU2v9SA?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo",
+      "PlayStation",
+      "PC"
+    ],
+    "releaseMonth": "2026-07",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-07-09",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49244",
+    "title": "Echoes of Aincrad （Steam版）",
+    "titleOriginal": "Echoes of Aincrad （Steam版）",
+    "slug": "echoes-of-aincrad-steam",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "PC"
+    ],
+    "releaseMonth": "2026-07",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-07-10",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-6500",
+    "title": "ヒプノシスマイク -Alternative Rap Battle- 2nd period",
+    "titleOriginal": "ヒプノシスマイク -Alternative Rap Battle- 2nd period",
+    "slug": "-alternative-rap-battle-2nd-period",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/136307/_4BLLmFm?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo"
+    ],
+    "releaseMonth": "2026-07",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-07-16",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49109",
+    "title": "RATATAN",
+    "titleOriginal": "RATATAN",
+    "slug": "ratatan",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/151660/bv-5x5GL?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "PlayStation",
+      "Xbox",
+      "PC",
+      "Nintendo"
+    ],
+    "releaseMonth": "2026-07",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-07-16",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-48070",
+    "title": "Against the Storm アゲインスト・ザ・ストーム",
+    "titleOriginal": "Against the Storm アゲインスト・ザ・ストーム",
+    "slug": "against-the-storm",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/151872/q4BjWwHf?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "PlayStation"
+    ],
+    "releaseMonth": "2026-07",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-07-16",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-34263",
+    "title": "70年代風ロボットアニメ ゲッP-X",
+    "titleOriginal": "70年代風ロボットアニメ ゲッP-X",
+    "slug": "70-p-x",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/152245/kuunkbZ-?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo",
+      "PlayStation",
+      "Xbox",
+      "PC"
+    ],
+    "releaseMonth": "2026-07",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-07-16",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49338",
+    "title": "Dreamin' Her - 僕は、彼女の夢を見る。-",
+    "titleOriginal": "Dreamin' Her - 僕は、彼女の夢を見る。-",
+    "slug": "dreamin-her-",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/152454/rBx-vK3g?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo"
+    ],
+    "releaseMonth": "2026-07",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-07-16",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49958",
+    "title": "プロ野球スピリッツ2026",
+    "titleOriginal": "プロ野球スピリッツ2026",
+    "slug": "2026",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/153523/O0_TpGxA?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "PlayStation",
+      "PC"
+    ],
+    "releaseMonth": "2026-07",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-07-16",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-21820",
+    "title": "Fit Boxing 3 – Your パーソナルトレーナー – Nintendo Switch 2 Edition",
+    "titleOriginal": "Fit Boxing 3 – Your パーソナルトレーナー – Nintendo Switch 2 Edition",
+    "slug": "fit-boxing-3-your-nintendo-switch-2-edition",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/153655/oiJT_P7G?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo"
+    ],
+    "releaseMonth": "2026-07",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-07-16",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-13100",
+    "title": "What Comes After",
+    "titleOriginal": "What Comes After",
+    "slug": "what-comes-after",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/153506/T96Drl3a?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "PlayStation"
+    ],
+    "releaseMonth": "2026-07",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-07-23",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49981",
+    "title": "Staffer Retro： 超能力推理クエスト",
+    "titleOriginal": "Staffer Retro： 超能力推理クエスト",
+    "slug": "staffer-retro",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/153675/LLDXWGyy?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo",
+      "PC"
+    ],
+    "releaseMonth": "2026-07",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-07-23",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49983",
+    "title": "お隣の天使様にいつの間にか駄目人間にされていた件 Memorial Vacation",
+    "titleOriginal": "お隣の天使様にいつの間にか駄目人間にされていた件 Memorial Vacation",
+    "slug": "memorial-vacation",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/153686/x3zPOSoA?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo"
+    ],
+    "releaseMonth": "2026-07",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-07-23",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-48244",
+    "title": "TERASLIDE （ニンテンドーeショップ ダウンロード版）",
+    "titleOriginal": "TERASLIDE （ニンテンドーeショップ ダウンロード版）",
+    "slug": "teraslide-e",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo"
+    ],
+    "releaseMonth": "2026-07",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-07-25",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-26794",
+    "title": "テニスの王子様 ぎゅ〜っと！ ドキドキサバイバル Tie break ♡ game",
+    "titleOriginal": "テニスの王子様 ぎゅ〜っと！ ドキドキサバイバル Tie break ♡ game",
+    "slug": "tie-break-game",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/151693/ibnwxQcO?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo",
+      "PC"
+    ],
+    "releaseMonth": "2026-07",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-07-30",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-37913",
+    "title": "テニスの王子様 も〜っと 学園祭の王子様 ♡-40 and more...",
+    "titleOriginal": "テニスの王子様 も〜っと 学園祭の王子様 ♡-40 and more...",
+    "slug": "-40-and-more",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/151696/i4FDb9f4?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo",
+      "PC"
+    ],
+    "releaseMonth": "2026-07",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-07-30",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49126",
+    "title": "TATSUJIN EXTREME",
+    "titleOriginal": "TATSUJIN EXTREME",
+    "slug": "tatsujin-extreme",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/151703/JHLOlb3-?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "PlayStation",
+      "PC",
+      "Nintendo"
+    ],
+    "releaseMonth": "2026-07",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-07-30",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49384",
+    "title": "BLUE REFLECTION Quartet： 少女たちのキセキ",
+    "titleOriginal": "BLUE REFLECTION Quartet： 少女たちのキセキ",
+    "slug": "blue-reflection-quartet",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/152526/K_eSMYcZ?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "PlayStation",
+      "Nintendo",
+      "PC"
+    ],
+    "releaseMonth": "2026-07",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-07-30",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49957",
+    "title": "アレサCOLLECTION 1993-1995",
+    "titleOriginal": "アレサCOLLECTION 1993-1995",
+    "slug": "collection-1993-1995",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/153510/JgXmn-CL?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo",
+      "PlayStation"
+    ],
+    "releaseMonth": "2026-07",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-07-30",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49959",
+    "title": "ケムコRPGセレクション Vol.15",
+    "titleOriginal": "ケムコRPGセレクション Vol.15",
+    "slug": "rpg-vol15",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/153528/tBrTqOrQ?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "PlayStation"
+    ],
+    "releaseMonth": "2026-07",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-07-30",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49979",
+    "title": "Bluey’s Quest for The Gold Pen（ブルーイのゴールドペン・クエスト）",
+    "titleOriginal": "Bluey’s Quest for The Gold Pen（ブルーイのゴールドペン・クエスト）",
+    "slug": "blueys-quest-for-the-gold-pen",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/153657/DwrUMEz9?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo",
+      "PlayStation"
+    ],
+    "releaseMonth": "2026-07",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-07-30",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-47938",
+    "title": "Beast of Reincarnation",
+    "titleOriginal": "Beast of Reincarnation",
+    "slug": "beast-of-reincarnation",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/148091/lV2qC9_Q?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PlayStation"
+    ],
+    "releaseMonth": "2026-08",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-08-04",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-17861",
+    "title": "Classic Racers Elite",
+    "titleOriginal": "Classic Racers Elite",
+    "slug": "classic-racers-elite",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/153696/aj9w-KLi?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "PlayStation"
+    ],
+    "releaseMonth": "2026-08",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-08-06",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49986",
+    "title": "ROUTE16 COLLECTION",
+    "titleOriginal": "ROUTE16 COLLECTION",
+    "slug": "route16-collection",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/153699/eFoXgjlb?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo"
+    ],
+    "releaseMonth": "2026-08",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-08-06",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49987",
+    "title": "ROUTE16R （ニンテンドーeショップ ダウンロード版）",
+    "titleOriginal": "ROUTE16R （ニンテンドーeショップ ダウンロード版）",
+    "slug": "route16r-e",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo",
+      "PC"
+    ],
+    "releaseMonth": "2026-08",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-08-06",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-33977",
+    "title": "ROUTE16TURBO （ニンテンドーeショップ ダウンロード版）",
+    "titleOriginal": "ROUTE16TURBO （ニンテンドーeショップ ダウンロード版）",
+    "slug": "route16turbo-e",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo",
+      "PlayStation",
+      "PC"
+    ],
+    "releaseMonth": "2026-08",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-08-06",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-7896",
+    "title": "ROUTE16 （ニンテンドーeショップ ダウンロード版）",
+    "titleOriginal": "ROUTE16 （ニンテンドーeショップ ダウンロード版）",
+    "slug": "route16-e",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo"
+    ],
+    "releaseMonth": "2026-08",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-08-06",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-12455",
+    "title": "もしかして？おばけの射的屋 for Nintendo Switch 2",
+    "titleOriginal": "もしかして？おばけの射的屋 for Nintendo Switch 2",
+    "slug": "for-nintendo-switch-2",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/154129/sdvjrKYf?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo"
+    ],
+    "releaseMonth": "2026-08",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-08-06",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-47930",
+    "title": "MARVEL: Tōkon Fighting Souls",
+    "titleOriginal": "MARVEL: Tōkon Fighting Souls",
+    "slug": "marvel-tokon-fighting-souls",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/152100/LImMiFd4?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "PlayStation",
+      "PC"
+    ],
+    "releaseMonth": "2026-08",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-08-07",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-22436",
+    "title": "STEINS；GATE RE：BOOT（シュタインズ・ゲート リブート）",
+    "titleOriginal": "STEINS；GATE RE：BOOT（シュタインズ・ゲート リブート）",
+    "slug": "steinsgate-reboot",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/153709/liz8Q5Q6?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "PC",
+      "Nintendo",
+      "PlayStation",
+      "Xbox"
+    ],
+    "releaseMonth": "2026-08",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-08-20",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49123",
+    "title": "Starsand Island（スターサンド・アイランド）",
+    "titleOriginal": "Starsand Island（スターサンド・アイランド）",
+    "slug": "starsand-island",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/151689/bUc4ARws?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "PlayStation",
+      "Nintendo"
+    ],
+    "releaseMonth": "2026-08",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-08-20",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49961",
+    "title": "あやかしごはん 〜おかわりっ！〜 for S",
+    "titleOriginal": "あやかしごはん 〜おかわりっ！〜 for S",
+    "slug": "for-s",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/153535/7G76QYl_?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo"
+    ],
+    "releaseMonth": "2026-08",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-08-20",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49196",
+    "title": "キャプテン翼2 WORLD FIGHTERS",
+    "titleOriginal": "キャプテン翼2 WORLD FIGHTERS",
+    "slug": "2-world-fighters",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/151963/0vWYgdMB?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo",
+      "PlayStation",
+      "Xbox"
+    ],
+    "releaseMonth": "2026-08",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-08-27",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49210",
+    "title": "メタルギア ソリッド: マスターコレクション Vol.2",
+    "titleOriginal": "メタルギア ソリッド: マスターコレクション Vol.2",
+    "slug": "vol2",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/152039/l20geoc3?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo",
+      "PlayStation",
+      "Xbox",
+      "PC"
+    ],
+    "releaseMonth": "2026-08",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-08-27",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-312",
+    "title": "METAL GEAR SOLID 4 GUNS OF THE PATRIOTS（MASTER COLLECTION版） （ニンテンドーeショップ ダウンロード版）",
+    "titleOriginal": "METAL GEAR SOLID 4 GUNS OF THE PATRIOTS（MASTER COLLECTION版） （ニンテンドーeショップ ダウンロード版）",
+    "slug": "metal-gear-solid-4-guns-of-the-patriotsmaster-collection-e",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo",
+      "PlayStation",
+      "Xbox"
+    ],
+    "releaseMonth": "2026-08",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-08-27",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-325",
+    "title": "METAL GEAR SOLID PEACE WALKER（MASTER COLLECTION版） （ニンテンドーeショップ ダウンロード版）",
+    "titleOriginal": "METAL GEAR SOLID PEACE WALKER（MASTER COLLECTION版） （ニンテンドーeショップ ダウンロード版）",
+    "slug": "metal-gear-solid-peace-walkermaster-collection-e",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo",
+      "PlayStation",
+      "Xbox"
+    ],
+    "releaseMonth": "2026-08",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-08-27",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-8947",
+    "title": "ELDEN RING Tarnished Edition",
+    "titleOriginal": "ELDEN RING Tarnished Edition",
+    "slug": "elden-ring-tarnished-edition",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo"
+    ],
+    "releaseMonth": "2026-08",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-08-28",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49196",
+    "title": "キャプテン翼2 WORLD FIGHTERS （Steam版）",
+    "titleOriginal": "キャプテン翼2 WORLD FIGHTERS （Steam版）",
+    "slug": "2-world-fighters-steam",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "PC"
+    ],
+    "releaseMonth": "2026-08",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-08-28",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49990",
+    "title": "機動警察パトレイバー the Case Files",
+    "titleOriginal": "機動警察パトレイバー the Case Files",
+    "slug": "the-case-files",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/153739/pJEuEsqQ?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "PlayStation"
+    ],
+    "releaseMonth": "2026-08",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-08-31",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-48562",
+    "title": "バッド・チーズ (Bad Cheese) （PS Store ダウンロード版）",
+    "titleOriginal": "バッド・チーズ (Bad Cheese) （PS Store ダウンロード版）",
+    "slug": "bad-cheese-ps-store",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "PlayStation"
+    ],
+    "releaseMonth": "2026-09",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-09-01",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49000",
+    "title": "The Blood of Dawnwalker",
+    "titleOriginal": "The Blood of Dawnwalker",
+    "slug": "the-blood-of-dawnwalker",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "PlayStation",
+      "Xbox",
+      "PC"
+    ],
+    "releaseMonth": "2026-09",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-09-03",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49385",
+    "title": "OFF",
+    "titleOriginal": "OFF",
+    "slug": "off",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/152545/xasOVl8x?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo"
+    ],
+    "releaseMonth": "2026-09",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-09-03",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49687",
+    "title": "Vice Thief Simulator: 80s Nostalgia （ニンテンドーeショップ ダウンロード版）",
+    "titleOriginal": "Vice Thief Simulator: 80s Nostalgia （ニンテンドーeショップ ダウンロード版）",
+    "slug": "vice-thief-simulator-80s-nostalgia-e",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo"
+    ],
+    "releaseMonth": "2026-09",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-09-04",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-46753",
+    "title": "Afterlove EP",
+    "titleOriginal": "Afterlove EP",
+    "slug": "afterlove-ep",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "PlayStation",
+      "Nintendo"
+    ],
+    "releaseMonth": "2026-09",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-09-10",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-2530",
+    "title": "BLACK WOLVES SAGA-Weiβ und Schwarz- for Nintendo Switch",
+    "titleOriginal": "BLACK WOLVES SAGA-Weiβ und Schwarz- for Nintendo Switch",
+    "slug": "black-wolves-saga-wei-und-schwarz-for-nintendo-switch",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/151653/1Nug8XzK?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo"
+    ],
+    "releaseMonth": "2026-09",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-09-10",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49972",
+    "title": "制服カノジョ3",
+    "titleOriginal": "制服カノジョ3",
+    "slug": "3",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo",
+      "PC"
+    ],
+    "releaseMonth": "2026-09",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-09-10",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49973",
+    "title": "制服カノジョ1・2・3セット",
+    "titleOriginal": "制服カノジョ1・2・3セット",
+    "slug": "123",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo",
+      "PC"
+    ],
+    "releaseMonth": "2026-09",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-09-10",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-2594",
+    "title": "晦-つきこもり （ニンテンドーeショップ ダウンロード版）",
+    "titleOriginal": "晦-つきこもり （ニンテンドーeショップ ダウンロード版）",
+    "slug": "-e",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo"
+    ],
+    "releaseMonth": "2026-09",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-09-10",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-13330",
+    "title": "Marvel's Wolverine",
+    "titleOriginal": "Marvel's Wolverine",
+    "slug": "marvels-wolverine",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/154920/6CCEWHa7?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "PlayStation"
+    ],
+    "releaseMonth": "2026-09",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-09-15",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49090",
+    "title": "空の軌跡 the 2nd（ソラノキセキ ザ・セカンド）Nintendo Switch 2 Edition",
+    "titleOriginal": "空の軌跡 the 2nd（ソラノキセキ ザ・セカンド）Nintendo Switch 2 Edition",
+    "slug": "the-2nd-nintendo-switch-2-edition",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/151593/O3wj6BY3?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo",
+      "PlayStation",
+      "PC"
+    ],
+    "releaseMonth": "2026-09",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-09-17",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49093",
+    "title": "AKIBA LOST",
+    "titleOriginal": "AKIBA LOST",
+    "slug": "akiba-lost",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/151616/CwpGDRPM?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo",
+      "PlayStation",
+      "PC"
+    ],
+    "releaseMonth": "2026-09",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-09-17",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49227",
+    "title": "Le Mirage Mystique（ル ミラージュ ミスティーク）",
+    "titleOriginal": "Le Mirage Mystique（ル ミラージュ ミスティーク）",
+    "slug": "le-mirage-mystique",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/152148/e6B2QLMc?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo"
+    ],
+    "releaseMonth": "2026-09",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-09-17",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-19184",
+    "title": "創神のアルスマグナ The Alchemist of Ars Magna",
+    "titleOriginal": "創神のアルスマグナ The Alchemist of Ars Magna",
+    "slug": "the-alchemist-of-ars-magna",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/153730/fiQROGu3?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "PlayStation"
+    ],
+    "releaseMonth": "2026-09",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-09-17",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-16006",
+    "title": "SILENT HILL： Townfall",
+    "titleOriginal": "SILENT HILL： Townfall",
+    "slug": "silent-hill-townfall",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/127648/NB9Opa5i?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "PlayStation",
+      "PC"
+    ],
+    "releaseMonth": "2026-09",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-09-24",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49032",
+    "title": "CONTROL Resonant （PS Store ダウンロード版）",
+    "titleOriginal": "CONTROL Resonant （PS Store ダウンロード版）",
+    "slug": "control-resonant-ps-store",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "PlayStation",
+      "Xbox",
+      "PC"
+    ],
+    "releaseMonth": "2026-09",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-09-24",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49114",
+    "title": "GOBBLE（ガブル）",
+    "titleOriginal": "GOBBLE（ガブル）",
+    "slug": "gobble",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/151678/vtCjyDLX?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo",
+      "PlayStation"
+    ],
+    "releaseMonth": "2026-09",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-09-24",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-8318",
+    "title": "ドラゴンクエストXI　過ぎ去りし時を求めて S",
+    "titleOriginal": "ドラゴンクエストXI　過ぎ去りし時を求めて S",
+    "slug": "xi-s",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo"
+    ],
+    "releaseMonth": "2026-09",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-09-24",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-22437",
+    "title": "鬼武者 Way of the Sword",
+    "titleOriginal": "鬼武者 Way of the Sword",
+    "slug": "way-of-the-sword",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/142301/mX9WiQcw?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "PlayStation",
+      "Xbox",
+      "PC"
+    ],
+    "releaseMonth": "2026-09",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-09-25",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-20287",
+    "title": "HADES II （ニンテンドーeショップ ダウンロード版）",
+    "titleOriginal": "HADES II （ニンテンドーeショップ ダウンロード版）",
+    "slug": "hades-ii-e",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo"
+    ],
+    "releaseMonth": "2026-09",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-09-26",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-50207",
+    "title": "ミステリーの歩き方 2 人魚伝説殺人事件",
+    "titleOriginal": "ミステリーの歩き方 2 人魚伝説殺人事件",
+    "slug": "2",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo"
+    ],
+    "releaseMonth": "2026-09",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-09-32",
+        "status": "tbd",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-48922",
+    "title": "真・三國無双2 with 猛将伝 Remastered",
+    "titleOriginal": "真・三國無双2 with 猛将伝 Remastered",
+    "slug": "2-with-remastered",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/154930/Iihe9All?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "PlayStation",
+      "Nintendo",
+      "Xbox",
+      "PC"
+    ],
+    "releaseMonth": "2026-10",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-10-01",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49117",
+    "title": "Sullyland Nursery Rhyme",
+    "titleOriginal": "Sullyland Nursery Rhyme",
+    "slug": "sullyland-nursery-rhyme",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/151682/MiD6bi_m?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo"
+    ],
+    "releaseMonth": "2026-10",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-10-01",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49026",
+    "title": "ACE COMBAT 8: WINGS OF THEVE （PS Store ダウンロード版）",
+    "titleOriginal": "ACE COMBAT 8: WINGS OF THEVE （PS Store ダウンロード版）",
+    "slug": "ace-combat-8-wings-of-theve-ps-store",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "PlayStation",
+      "Xbox",
+      "PC"
+    ],
+    "releaseMonth": "2026-10",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-10-02",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-50433",
+    "title": "Call of Duty: Modern Warfare 4",
+    "titleOriginal": "Call of Duty: Modern Warfare 4",
+    "slug": "call-of-duty-modern-warfare-4",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "PlayStation",
+      "Xbox",
+      "PC"
+    ],
+    "releaseMonth": "2026-10",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-10-23",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-50224",
+    "title": "アノマリス／ANOMALITH",
+    "titleOriginal": "アノマリス／ANOMALITH",
+    "slug": "anomalith",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/154130/BlB-CJn9?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo",
+      "PlayStation",
+      "PC"
+    ],
+    "releaseMonth": "2026-10",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-10-29",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-49974",
+    "title": "クライムライト／CRYMELIGHT",
+    "titleOriginal": "クライムライト／CRYMELIGHT",
+    "slug": "crymelight",
+    "coverUrl": "https://image.kagali.kgl-systems.io/item/153608/6t7yUUIv?w=160&h=160&func=bound",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "Nintendo",
+      "PlayStation",
+      "PC"
+    ],
+    "releaseMonth": "2026-11",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-11-05",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
+    ]
+  },
+  {
+    "id": "fami-19120",
+    "title": "グランド・セフト・オートVI",
+    "titleOriginal": "グランド・セフト・オートVI",
+    "slug": "vi",
+    "summary": "暂无简介。",
+    "genres": [],
+    "platforms": [
+      "PlayStation",
+      "Xbox"
+    ],
+    "releaseMonth": "2026-11",
+    "releases": [
+      {
+        "region": "JP",
+        "date": "2026-11-19",
+        "status": "confirmed",
+        "source": "Famitsu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Famitsu",
+        "url": "https://www.famitsu.com/schedule/",
+        "kind": "database"
+      }
+    ],
+    "sources": [
+      "Famitsu"
     ]
   }
 ]

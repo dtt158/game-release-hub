@@ -3,8 +3,8 @@ import type { PlatformTab, RegionCode } from "../types";
 const platformAliases: Array<[RegExp, PlatformTab]> = [
   [/\b(steam|epic|gog|windows|pc|mac|linux)\b/i, "PC"],
   [/\b(playstation|ps5|ps4|ps3|ps vita|psvr)\b/i, "PlayStation"],
-  [/\b(xbox|series x|series s|xone|x360)\b/i, "Xbox"],
-  [/\b(nintendo|switch|wii|3ds|ds|gamecube)\b/i, "Nintendo"],
+  [/\b(xbox|series x|series s|xone|x360|xsx)\b/i, "Xbox"],
+  [/\b(nintendo|switch|switch2|wii|3ds|ds|gamecube)\b/i, "Nintendo"],
   [/\b(android|ios|iphone|ipad|mobile|app store|google play|taptap)\b/i, "Mobile"],
 ];
 

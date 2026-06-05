@@ -82,10 +82,28 @@ interface FamitsuTitleItem {
   releaseDateOrder: number; // YYYYMMDD as number
   releaseDateType: string;  // "Confirmed" | "TBD" | etc.
   gameTitleId: number;
+  groupId: number; // used for detail page URL: /game/title/[groupId]/page/1
   isMain: boolean;
   isDownload: boolean;
   isCeroZ: boolean;
   isGlobal: boolean;
+}
+
+interface FamitsuDetailInfo {
+  genres: string[];
+  summary: string;
+  detailUrl: string;
+}
+
+interface FamitsuDetailNextData {
+  props: {
+    pageProps: {
+      gameTitleInformationData?: {
+        genre?: string;
+        content?: string;
+      };
+    };
+  };
 }
 
 interface FamitsuGameTitle {
@@ -109,6 +127,18 @@ interface FamitsuNextData {
       };
     };
   };
+}
+
+// GOG types — from catalog.gog.com/v1/catalog, no key required
+interface GogProduct {
+  id: string;
+  slug: string;
+  title: string;
+  releaseDate?: string | null; // "YYYY.MM.DD" or null; "1991.12.25" = TBD
+  storeReleaseDate?: string | null;
+  genres?: Array<{ name: string; slug: string }>;
+  coverVertical?: string;
+  storeLink?: string;
 }
 
 // TheGamesDB types
@@ -151,14 +181,15 @@ async function main() {
   const statuses: SourceStatus[] = [];
   const entries: GameEntry[] = [];
 
-  const [igdbEntries, rawgEntries, steamEntries, famitsuEntries, tgdbEntries] = await Promise.all([
+  const [igdbEntries, rawgEntries, steamEntries, gogEntries, famitsuEntries, tgdbEntries] = await Promise.all([
     readIgdb(statuses),
     readRawg(statuses),
     readSteam(statuses),
+    readGog(statuses),
     readFamitsu(statuses),
     readTheGamesDB(statuses),
   ]);
-  entries.push(...igdbEntries, ...rawgEntries, ...steamEntries, ...famitsuEntries, ...tgdbEntries);
+  entries.push(...igdbEntries, ...rawgEntries, ...steamEntries, ...gogEntries, ...famitsuEntries, ...tgdbEntries);
 
   let games = mergeGames(entries).filter((game) => game.platforms.length > 0);
   if (games.length === 0) {
@@ -410,9 +441,43 @@ async function readSteam(statuses: SourceStatus[]): Promise<GameEntry[]> {
 // Famitsu (ファミ通) — JP release calendar via __NEXT_DATA__ JSON, no key
 // ---------------------------------------------------------------------------
 
+const famitsuGenreMap: Record<string, string> = {
+  アクション: "动作",
+  アドベンチャー: "冒险",
+  アクションアドベンチャー: "动作冒险",
+  アクションRPG: "动作RPG",
+  RPG: "RPG",
+  ロールプレイング: "RPG",
+  シミュレーション: "模拟",
+  ストラテジー: "策略",
+  スポーツ: "体育",
+  レース: "竞速",
+  レーシング: "竞速",
+  パズル: "解谜",
+  シューティング: "射击",
+  ホラー: "恐怖",
+  ノベル: "视觉小说",
+  恋愛アドベンチャー: "恋爱冒险",
+  テーブルゲーム: "桌游",
+  ミュージック: "音游",
+  その他: "其他",
+  ファンタジー: "奇幻",
+  格闘: "格斗",
+  音楽: "音乐",
+};
+
+function mapFamitsuGenre(genreStr: string): string[] {
+  return genreStr
+    .split(/\s*[\/・]\s*/)
+    .map((g) => {
+      const trimmed = g.trim();
+      return famitsuGenreMap[trimmed] ?? trimmed;
+    })
+    .filter(Boolean);
+}
+
 async function readFamitsu(statuses: SourceStatus[]): Promise<GameEntry[]> {
   try {
-    // Build list of YYYYMM strings: current month + next 6
     const monthsToFetch: string[] = [];
     for (let i = 0; i <= 6; i++) {
       const d = new Date(now.getFullYear(), now.getMonth() + i, 1);
@@ -421,7 +486,8 @@ async function readFamitsu(statuses: SourceStatus[]): Promise<GameEntry[]> {
       );
     }
 
-    const allEntries: GameEntry[] = [];
+    // Pass 1: collect all raw schedule data
+    const rawTitles: Array<{ gameTitle: FamitsuGameTitle; releaseDateOrder: number }> = [];
     let fetchedMonths = 0;
 
     for (const yyyymm of monthsToFetch) {
@@ -448,8 +514,7 @@ async function readFamitsu(statuses: SourceStatus[]): Promise<GameEntry[]> {
         fetchedMonths++;
         for (const dateGroup of Object.values(schedData.data)) {
           for (const gameTitle of dateGroup.gameTitles ?? []) {
-            const entry = mapFamitsuTitle(gameTitle, dateGroup.releaseDateOrder);
-            if (entry) allEntries.push(entry);
+            rawTitles.push({ gameTitle, releaseDateOrder: dateGroup.releaseDateOrder });
           }
         }
       } catch {
@@ -457,7 +522,7 @@ async function readFamitsu(statuses: SourceStatus[]): Promise<GameEntry[]> {
       }
     }
 
-    if (allEntries.length === 0) {
+    if (rawTitles.length === 0) {
       statuses.push({
         name: "Famitsu",
         status: "error",
@@ -466,10 +531,61 @@ async function readFamitsu(statuses: SourceStatus[]): Promise<GameEntry[]> {
       return [];
     }
 
+    // Pass 2: fetch detail pages (genre + description) for unique games
+    const detailMap = new Map<number, FamitsuDetailInfo>();
+    const uniqueGames = new Map<number, number>(); // gameTitleId → primaryGroupId
+
+    for (const { gameTitle } of rawTitles) {
+      if (uniqueGames.has(gameTitle.gameTitleId)) continue;
+      const mainItems = gameTitle.gameTitleItems.filter((i) => i.isMain && !i.isDownload);
+      const primary = mainItems[0] ?? gameTitle.gameTitleItems.find((i) => i.isMain);
+      if (primary) uniqueGames.set(gameTitle.gameTitleId, primary.groupId);
+    }
+
+    const famitsuHeaders = {
+      "User-Agent": "Mozilla/5.0 (compatible; GameReleaseHub/1.0)",
+      "Accept-Language": "ja,en;q=0.5",
+    };
+
+    for (const [gameTitleId, groupId] of [...uniqueGames.entries()].slice(0, 80)) {
+      await sleep(300);
+      try {
+        const detailUrl = `https://www.famitsu.com/game/title/${groupId}/page/1`;
+        const resp = await fetch(detailUrl, { headers: famitsuHeaders });
+        if (!resp.ok) continue;
+
+        const html = await resp.text();
+        const match = html.match(
+          /<script id="__NEXT_DATA__" type="application\/json">(.*?)<\/script>/s,
+        );
+        if (!match) continue;
+
+        const nextData = JSON.parse(match[1]) as FamitsuDetailNextData;
+        const info = nextData?.props?.pageProps?.gameTitleInformationData;
+        if (!info) continue;
+
+        detailMap.set(gameTitleId, {
+          genres: info.genre ? mapFamitsuGenre(info.genre) : [],
+          summary: info.content?.trim() || "暂无简介。",
+          detailUrl,
+        });
+      } catch {
+        continue;
+      }
+    }
+
+    // Pass 3: build entries with enriched data
+    const allEntries: GameEntry[] = [];
+    for (const { gameTitle, releaseDateOrder } of rawTitles) {
+      const detail = detailMap.get(gameTitle.gameTitleId);
+      const entry = mapFamitsuTitle(gameTitle, releaseDateOrder, detail);
+      if (entry) allEntries.push(entry);
+    }
+
     statuses.push({
       name: "Famitsu",
       status: "ok",
-      message: `读取 ${allEntries.length} 款游戏（JP 发售日历，共 ${fetchedMonths} 个月）`,
+      message: `读取 ${allEntries.length} 款游戏（JP 发售日历，共 ${fetchedMonths} 个月，${detailMap.size} 条详情）`,
     });
     return allEntries;
   } catch (error) {
@@ -485,11 +601,10 @@ async function readFamitsu(statuses: SourceStatus[]): Promise<GameEntry[]> {
 function mapFamitsuTitle(
   gameTitle: FamitsuGameTitle,
   releaseDateOrder: number,
+  detail?: FamitsuDetailInfo,
 ): GameEntry | null {
-  // Only use the physical main release to avoid duplicate editions
   const mainItems = gameTitle.gameTitleItems.filter((i) => i.isMain && !i.isDownload);
   if (mainItems.length === 0) {
-    // If no physical main, fall back to any main item
     const anyMain = gameTitle.gameTitleItems.find((i) => i.isMain);
     if (!anyMain) return null;
     mainItems.push(anyMain);
@@ -513,21 +628,99 @@ function mapFamitsuTitle(
     },
   ] satisfies GameEntry["releases"];
 
+  const famitsuLink = {
+    label: "Famitsu",
+    url: detail?.detailUrl ?? "https://www.famitsu.com/schedule/",
+    kind: "database" as const,
+  };
+
   return {
     id: `fami-${gameTitle.gameTitleId}`,
     title: primary.nameJa,
     titleOriginal: primary.nameJa,
     slug: slugify(primary.nameJa),
     coverUrl: primary.thumbnail || undefined,
-    summary: "暂无简介。",
-    genres: [],
+    summary: detail?.summary ?? "暂无简介。",
+    genres: detail?.genres ?? [],
     platforms,
     releaseMonth: monthFromReleases(releases),
     releases,
-    links: [
-      { label: "Famitsu", url: "https://www.famitsu.com/schedule/", kind: "database" },
-    ],
+    links: [famitsuLink],
     sources: ["Famitsu"],
+  };
+}
+
+// ---------------------------------------------------------------------------
+// GOG — public catalog API, no key required, PC DRM-free games
+// ---------------------------------------------------------------------------
+
+async function readGog(statuses: SourceStatus[]): Promise<GameEntry[]> {
+  try {
+    const entries: GameEntry[] = [];
+
+    for (let page = 1; page <= 5; page++) {
+      await sleep(300);
+      const url = new URL("https://catalog.gog.com/v1/catalog");
+      url.searchParams.set("limit", "48");
+      url.searchParams.set("order", "asc:releaseDate");
+      url.searchParams.set("productType", "in:game,pack");
+      url.searchParams.set("releaseStatuses", "in:new_arrival,upcoming");
+      url.searchParams.set("page", String(page));
+
+      const resp = await fetch(url, { headers: { Accept: "application/json" } });
+      if (!resp.ok) break;
+
+      const data = (await resp.json()) as { products: GogProduct[]; pages: number };
+      for (const product of data.products) {
+        const entry = mapGogProduct(product);
+        if (entry) entries.push(entry);
+      }
+
+      if (page >= data.pages) break;
+    }
+
+    statuses.push({
+      name: "GOG",
+      status: "ok",
+      message: `读取 ${entries.length} 款 PC 游戏（DRM-free）`,
+    });
+    return entries;
+  } catch (error) {
+    statuses.push({
+      name: "GOG",
+      status: "error",
+      message: error instanceof Error ? error.message : "GOG 请求失败",
+    });
+    return [];
+  }
+}
+
+function mapGogProduct(product: GogProduct): GameEntry | null {
+  const rawDate = product.releaseDate;
+  if (!rawDate || rawDate === "1991.12.25") return null;
+
+  const date = rawDate.replace(/\./g, "-");
+  if (date < bounds.rangeStart || date > bounds.rangeEnd) return null;
+
+  const releases = [
+    { region: "GLOBAL" as RegionCode, date, status: "confirmed" as const, source: "GOG" },
+  ] satisfies GameEntry["releases"];
+
+  return {
+    id: `gog-${product.id}`,
+    title: product.title,
+    titleOriginal: product.title,
+    slug: product.slug,
+    coverUrl: product.coverVertical || undefined,
+    summary: "暂无简介。",
+    genres: (product.genres ?? []).map((g) => g.name),
+    platforms: ["PC"],
+    releaseMonth: monthFromReleases(releases),
+    releases,
+    links: product.storeLink
+      ? [{ label: "GOG", url: product.storeLink, kind: "store" as const }]
+      : [],
+    sources: ["GOG"],
   };
 }
 

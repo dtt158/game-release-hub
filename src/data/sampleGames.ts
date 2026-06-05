@@ -158,7 +158,7 @@ export const sampleSourceHealth: SourceHealth = {
     { name: "RAWG", status: "missing-key", message: "未配置 RAWG_API_KEY" },
     { name: "Steam", status: "fallback", message: "降级模式不请求 Steam" },
     { name: "Famitsu", status: "fallback", message: "降级模式不请求 Famitsu" },
-    { name: "GiantBomb", status: "missing-key", message: "未配置 GIANTBOMB_API_KEY" },
+    { name: "TheGamesDB", status: "missing-key", message: "未配置 THEGAMESDB_API_KEY" },
     { name: "Sample", status: "fallback", message: "正在使用内置样例数据" },
   ],
 };

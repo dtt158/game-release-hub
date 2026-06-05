@@ -111,17 +111,36 @@ interface FamitsuNextData {
   };
 }
 
-// GiantBomb types
-interface GiantBombRelease {
+// TheGamesDB types
+interface TgdbUpdate {
   id: number;
-  name: string;
-  date?: string;
-  expected_release_day?: number | null;
-  expected_release_month?: number | null;
-  expected_release_year?: number | null;
-  game?: { id: number; name: string };
-  platform?: { id: number; name: string };
-  region?: { id: number; name: string };
+  edit_datetime: string;
+}
+
+interface TgdbGame {
+  id: number;
+  game_title: string;
+  release_date?: string | null;
+  platform?: number | null;
+  overview?: string | null;
+  genres?: number[] | null;
+}
+
+interface TgdbBoxartItem {
+  id: number;
+  type: string;
+  side: string;
+  filename: string;
+}
+
+interface TgdbInclude {
+  boxart?: {
+    base_url: { medium: string; thumb: string };
+    data: Record<string, TgdbBoxartItem[]>;
+  };
+  platform?: {
+    data: Record<string, { id: number; name: string; alias: string }>;
+  };
 }
 
 // ---------------------------------------------------------------------------
@@ -132,14 +151,14 @@ async function main() {
   const statuses: SourceStatus[] = [];
   const entries: GameEntry[] = [];
 
-  const [igdbEntries, rawgEntries, steamEntries, famitsuEntries, gbEntries] = await Promise.all([
+  const [igdbEntries, rawgEntries, steamEntries, famitsuEntries, tgdbEntries] = await Promise.all([
     readIgdb(statuses),
     readRawg(statuses),
     readSteam(statuses),
     readFamitsu(statuses),
-    readGiantBomb(statuses),
+    readTheGamesDB(statuses),
   ]);
-  entries.push(...igdbEntries, ...rawgEntries, ...steamEntries, ...famitsuEntries, ...gbEntries);
+  entries.push(...igdbEntries, ...rawgEntries, ...steamEntries, ...famitsuEntries, ...tgdbEntries);
 
   let games = mergeGames(entries).filter((game) => game.platforms.length > 0);
   if (games.length === 0) {
@@ -513,110 +532,134 @@ function mapFamitsuTitle(
 }
 
 // ---------------------------------------------------------------------------
-// GiantBomb — comprehensive game database, needs free API key
+// TheGamesDB — open game database, free API key (thegamesdb.net)
+// Strategy: fetch recently updated entries, keep those in our date range
 // ---------------------------------------------------------------------------
 
-async function readGiantBomb(statuses: SourceStatus[]): Promise<GameEntry[]> {
-  const key = process.env.GIANTBOMB_API_KEY;
+async function readTheGamesDB(statuses: SourceStatus[]): Promise<GameEntry[]> {
+  const key = process.env.THEGAMESDB_API_KEY;
   if (!key) {
     statuses.push({
-      name: "GiantBomb",
+      name: "TheGamesDB",
       status: "missing-key",
-      message: "未配置 GIANTBOMB_API_KEY（giantbomb.com/api 免费申请）",
+      message: "未配置 THEGAMESDB_API_KEY（thegamesdb.net 免费申请）",
     });
     return [];
   }
 
   try {
-    const allReleases: GiantBombRelease[] = [];
-    const limit = 100;
-    const maxPages = 3;
+    // Collect game IDs updated in the last 180 days across multiple pages
+    const since = Math.floor(Date.now() / 1000) - 180 * 24 * 3600;
+    const allIds: number[] = [];
+    let page = 1;
 
-    for (let page = 0; page < maxPages; page++) {
-      await sleep(1000); // GiantBomb: 200 requests/resource/hour
-      const url = new URL("https://www.giantbomb.com/api/releases/");
-      url.searchParams.set("api_key", key);
-      url.searchParams.set("format", "json");
-      url.searchParams.set("filter", `date:${bounds.rangeStart}|${bounds.rangeEnd}`);
-      url.searchParams.set("sort", "date:asc");
-      url.searchParams.set("limit", String(limit));
-      url.searchParams.set("offset", String(page * limit));
-      url.searchParams.set(
-        "field_list",
-        "id,name,date,game,platform,region,expected_release_day,expected_release_month,expected_release_year",
-      );
+    while (allIds.length < 300) {
+      const url = new URL("https://api.thegamesdb.net/v1/Games/Updates");
+      url.searchParams.set("apikey", key);
+      url.searchParams.set("time", String(since));
+      url.searchParams.set("page", String(page));
 
-      const response = await fetch(url, {
-        headers: { "User-Agent": "GameReleaseHub/1.0" },
-      });
-      if (!response.ok) throw new Error(`GiantBomb ${response.status}`);
-
-      const data = (await response.json()) as {
-        results: GiantBombRelease[];
-        number_of_total_results: number;
+      const resp = await fetch(url);
+      if (!resp.ok) throw new Error(`TheGamesDB Updates ${resp.status}`);
+      const data = (await resp.json()) as {
+        code: number;
+        data: { count: number; updates: TgdbUpdate[] };
+        pages: { next?: string | null };
       };
-      allReleases.push(...data.results);
-      if (allReleases.length >= data.number_of_total_results) break;
+      if (data.code !== 200) throw new Error(`TheGamesDB: ${data.code}`);
+
+      allIds.push(...data.data.updates.map((u) => u.id));
+      if (!data.pages?.next || data.data.updates.length === 0) break;
+      page++;
+      await sleep(500);
     }
 
-    const entries = allReleases
-      .filter((r) => r.game)
-      .map((r) => mapGiantBombRelease(r))
-      .filter(Boolean) as GameEntry[];
+    if (allIds.length === 0) {
+      statuses.push({ name: "TheGamesDB", status: "ok", message: "近期无更新数据" });
+      return [];
+    }
+
+    // Batch fetch details in chunks of 50
+    const entries: GameEntry[] = [];
+    const chunkSize = 50;
+    for (let i = 0; i < Math.min(allIds.length, 200); i += chunkSize) {
+      const chunk = allIds.slice(i, i + chunkSize);
+      await sleep(500);
+
+      const detailUrl = new URL("https://api.thegamesdb.net/v1/Games/ByGameID");
+      detailUrl.searchParams.set("apikey", key);
+      detailUrl.searchParams.set("id", chunk.join(","));
+      detailUrl.searchParams.set("fields", "game_title,release_date,platform,overview,genres");
+      detailUrl.searchParams.set("include", "boxart,platform");
+
+      const detailResp = await fetch(detailUrl);
+      if (!detailResp.ok) continue;
+
+      const detailData = (await detailResp.json()) as {
+        code: number;
+        data: { games: Record<string, TgdbGame>; count: number };
+        include: TgdbInclude;
+      };
+      if (detailData.code !== 200) continue;
+
+      for (const game of Object.values(detailData.data.games)) {
+        const entry = mapTgdbGame(game, detailData.include);
+        if (entry) entries.push(entry);
+      }
+    }
 
     statuses.push({
-      name: "GiantBomb",
+      name: "TheGamesDB",
       status: "ok",
-      message: `读取 ${allReleases.length} 条发售记录`,
+      message: `读取 ${entries.length} 款发售日期在范围内的游戏`,
     });
     return entries;
   } catch (error) {
     statuses.push({
-      name: "GiantBomb",
+      name: "TheGamesDB",
       status: "error",
-      message: error instanceof Error ? error.message : "GiantBomb 请求失败",
+      message: error instanceof Error ? error.message : "TheGamesDB 请求失败",
     });
     return [];
   }
 }
 
-function mapGiantBombRelease(release: GiantBombRelease): GameEntry | null {
-  if (!release.game) return null;
+function mapTgdbGame(game: TgdbGame, include: TgdbInclude): GameEntry | null {
+  if (!game.release_date) return null;
 
-  const platforms = release.platform
-    ? normalizePlatformObjects([release.platform.name])
-    : [];
+  const date = game.release_date.slice(0, 10);
+  if (date < bounds.rangeStart || date > bounds.rangeEnd) return null;
+
+  const platformInfo = game.platform != null
+    ? include.platform?.data[String(game.platform)]
+    : null;
+  const platforms = platformInfo ? normalizePlatformObjects([platformInfo.name]) : [];
   if (platforms.length === 0) return null;
 
-  let date: string | null = null;
-  if (release.date) {
-    date = release.date.slice(0, 10);
-  } else if (release.expected_release_year) {
-    const m = release.expected_release_month ?? 1;
-    const d = release.expected_release_day ?? 1;
-    date = `${release.expected_release_year}-${String(m).padStart(2, "0")}-${String(d).padStart(2, "0")}`;
-  }
-
-  const regionCode = release.region
-    ? mapRegionName(release.region.name)
-    : ("GLOBAL" as RegionCode);
+  const boxartList = include.boxart?.data[String(game.id)] ?? [];
+  const front = boxartList.find((b) => b.type === "front" || b.side === "front");
+  const baseUrl = include.boxart?.base_url.medium;
+  const coverUrl = front && baseUrl ? `${baseUrl}${front.filename}` : undefined;
 
   const releases = [
-    { region: regionCode, date, status: date ? ("confirmed" as const) : ("tbd" as const), source: "GiantBomb" },
+    { region: "GLOBAL" as RegionCode, date, status: "confirmed" as const, source: "TheGamesDB" },
   ] satisfies GameEntry["releases"];
 
   return {
-    id: `gb-${release.game.id}`,
-    title: release.game.name,
-    titleOriginal: release.game.name,
-    slug: slugify(release.game.name),
-    summary: "暂无简介。",
+    id: `tgdb-${game.id}`,
+    title: game.game_title,
+    titleOriginal: game.game_title,
+    slug: slugify(game.game_title),
+    coverUrl,
+    summary: game.overview || "暂无简介。",
     genres: [],
     platforms,
     releaseMonth: monthFromReleases(releases),
     releases,
-    links: [],
-    sources: ["GiantBomb"],
+    links: [
+      { label: "TheGamesDB", url: `https://thegamesdb.net/game.php?id=${game.id}`, kind: "database" },
+    ],
+    sources: ["TheGamesDB"],
   };
 }
 

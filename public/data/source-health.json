@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-05T14:41:40.631Z",
+  "generatedAt": "2026-06-05T14:52:08.694Z",
   "mode": "live",
   "sources": [
     {
@@ -13,9 +13,9 @@
       "message": "未配置 RAWG_API_KEY"
     },
     {
-      "name": "GiantBomb",
+      "name": "TheGamesDB",
       "status": "missing-key",
-      "message": "未配置 GIANTBOMB_API_KEY（giantbomb.com/api 免费申请）"
+      "message": "未配置 THEGAMESDB_API_KEY（thegamesdb.net 免费申请）"
     },
     {
       "name": "Famitsu",

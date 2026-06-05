@@ -38,7 +38,7 @@ jobs:
           IGDB_CLIENT_ID: ${{ secrets.IGDB_CLIENT_ID }}
           IGDB_CLIENT_SECRET: ${{ secrets.IGDB_CLIENT_SECRET }}
           RAWG_API_KEY: ${{ secrets.RAWG_API_KEY }}
-          GIANTBOMB_API_KEY: ${{ secrets.GIANTBOMB_API_KEY }}
+          THEGAMESDB_API_KEY: ${{ secrets.THEGAMESDB_API_KEY }}
 
       - name: Test
         run: npm test

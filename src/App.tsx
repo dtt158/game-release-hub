@@ -184,7 +184,7 @@ export function App() {
             </div>
           ))}
           <p className="attribution">
-            数据来源：IGDB · RAWG · Steam · Famitsu · GiantBomb。其中 Famitsu 提供日本发售日历（免费），GiantBomb 需免费申请 API Key，RAWG 数据需保留来源链接。
+            数据来源：IGDB · RAWG · Steam · Famitsu · TheGamesDB。其中 Famitsu 提供日本发售日历（免费），TheGamesDB 需免费申请 API Key，RAWG 数据需保留来源链接。
           </p>
         </aside>
 

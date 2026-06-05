@@ -1,0 +1,31 @@
+{
+  "generatedAt": "2026-06-05T06:21:49.365Z",
+  "mode": "fallback",
+  "sources": [
+    {
+      "name": "IGDB",
+      "status": "missing-key",
+      "message": "未配置 IGDB_CLIENT_ID / IGDB_CLIENT_SECRET"
+    },
+    {
+      "name": "RAWG",
+      "status": "missing-key",
+      "message": "未配置 RAWG_API_KEY"
+    },
+    {
+      "name": "IGDB",
+      "status": "missing-key",
+      "message": "未配置 IGDB_CLIENT_ID / IGDB_CLIENT_SECRET"
+    },
+    {
+      "name": "RAWG",
+      "status": "missing-key",
+      "message": "未配置 RAWG_API_KEY"
+    },
+    {
+      "name": "Sample",
+      "status": "fallback",
+      "message": "正在使用内置样例数据"
+    }
+  ]
+}

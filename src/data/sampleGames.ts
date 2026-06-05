@@ -85,6 +85,62 @@ export const sampleGames: GameEntry[] = [
     ],
     sources: ["Sample"],
   },
+  {
+    id: "sample-dragon-quest-xii",
+    title: "勇者斗恶龙 XII：命运之炎",
+    titleOriginal: "ドラゴンクエストXII 選ばれし運命の炎",
+    slug: "dragon-quest-xii",
+    summary: "系列全新正统续作，采用暗色调和更成熟的剧情路线，首次引入实时指令式战斗系统。",
+    genres: ["角色扮演", "JRPG"],
+    platforms: ["PlayStation", "Xbox", "PC", "Nintendo"],
+    releaseMonth: "2026-12",
+    releases: [
+      { region: "JP", date: null, status: "tbd", source: "sample" },
+      { region: "NA", date: null, status: "tbd", source: "sample" },
+      { region: "EU", date: null, status: "tbd", source: "sample" },
+    ],
+    links: [
+      { label: "官网", url: "https://www.dragonquest.jp/", kind: "official" },
+    ],
+    sources: ["Sample"],
+  },
+  {
+    id: "sample-persona-6",
+    title: "女神异闻录 6",
+    titleOriginal: "ペルソナ6",
+    slug: "persona-6",
+    summary: "Atlus 旗下人气 RPG 系列最新正统续作，全新主角与伙伴在都市与异世界之间展开冒险。",
+    genres: ["角色扮演", "JRPG", "社交模拟"],
+    platforms: ["PlayStation", "PC"],
+    releaseMonth: "2027-03",
+    releases: [
+      { region: "JP", date: null, status: "tbd", source: "sample" },
+      { region: "NA", date: null, status: "tbd", source: "sample" },
+    ],
+    links: [
+      { label: "Atlus", url: "https://atlus.com/", kind: "official" },
+    ],
+    sources: ["Sample"],
+  },
+  {
+    id: "sample-mh-wilds-expansion",
+    title: "怪物猎人：荒野 大型扩展",
+    titleOriginal: "モンスターハンターワイルズ 超大型拡張コンテンツ",
+    slug: "monster-hunter-wilds-expansion",
+    summary: "《怪物猎人：荒野》首个超大型扩展内容，加入新区域、新怪物群与 G 级难度。",
+    genres: ["动作", "角色扮演", "多人合作"],
+    platforms: ["PlayStation", "Xbox", "PC"],
+    releaseMonth: "2026-11",
+    releases: [
+      { region: "JP", date: null, status: "tbd", source: "sample" },
+      { region: "GLOBAL", date: null, status: "tbd", source: "sample" },
+    ],
+    links: [
+      { label: "官网", url: "https://www.monsterhunter.com/wilds/", kind: "official" },
+      { label: "Steam", url: "https://store.steampowered.com/", kind: "store" },
+    ],
+    sources: ["Sample"],
+  },
 ];
 
 export const sampleLastUpdated: LastUpdated = {
@@ -100,6 +156,7 @@ export const sampleSourceHealth: SourceHealth = {
   sources: [
     { name: "IGDB", status: "missing-key", message: "未配置 IGDB_CLIENT_ID / IGDB_CLIENT_SECRET" },
     { name: "RAWG", status: "missing-key", message: "未配置 RAWG_API_KEY" },
+    { name: "Steam", status: "fallback", message: "降级模式不请求 Steam" },
     { name: "Sample", status: "fallback", message: "正在使用内置样例数据" },
   ],
 };

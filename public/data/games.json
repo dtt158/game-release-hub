@@ -1,213 +1,394 @@
 [
   {
-    "id": "sample-death-stranding-2",
-    "title": "死亡搁浅 2：冥滩之上",
-    "titleOriginal": "Death Stranding 2: On the Beach",
-    "slug": "death-stranding-2-on-the-beach",
-    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8x2t.jpg",
-    "summary": "山姆再度踏上连接世界的旅程，在更广阔的荒野、据点和异常气候中重建人类之间的联系。",
+    "id": "steam-3634340",
+    "title": "吾皇万岁",
+    "titleOriginal": "吾皇万岁",
+    "slug": "",
+    "coverUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3634340/cc2c651962c92c4a93066b500e8715bdde1a7845/header_alt_assets_0_schinese.jpg?t=1780649798",
+    "summary": "这是一款科幻生存Roguelite游戏，本作将“弹幕肉鸽射击”的极限割草爽感，与“基地建造即时战略”的运筹帷幄融为一体。在这个充斥着异星敌潮的残酷战场上，你既能享受高机动走位、火力清屏的动作快感，也能通过即时规划自动化防御网，体验拔地建城、碾压一切的策略乐趣。",
     "genres": [
+      "独立",
+      "角色扮演",
+      "模拟",
+      "策略",
       "动作",
-      "冒险"
+      "冒险",
+      "休闲"
     ],
     "platforms": [
-      "PlayStation"
+      "PC"
     ],
-    "releaseMonth": "2025-06",
+    "releaseMonth": "2026-06",
     "releases": [
       {
-        "region": "NA",
-        "date": "2025-06-26",
+        "region": "GLOBAL",
+        "date": "2026-06-05",
         "status": "confirmed",
-        "source": "sample"
-      },
-      {
-        "region": "EU",
-        "date": "2025-06-26",
-        "status": "confirmed",
-        "source": "sample"
-      },
-      {
-        "region": "JP",
-        "date": "2025-06-26",
-        "status": "confirmed",
-        "source": "sample"
-      },
-      {
-        "region": "KR",
-        "date": "2025-06-26",
-        "status": "confirmed",
-        "source": "sample"
+        "source": "Steam"
       }
     ],
     "links": [
       {
-        "label": "官网",
-        "url": "https://www.kojimaproductions.jp/",
-        "kind": "official"
+        "label": "Steam",
+        "url": "https://store.steampowered.com/app/3634340",
+        "kind": "store"
       },
       {
-        "label": "PlayStation Store",
-        "url": "https://www.playstation.com/",
+        "label": "Steam",
+        "url": "https://store.steampowered.com/app/3324250",
         "kind": "store"
       }
     ],
     "sources": [
-      "Sample"
+      "Steam"
     ]
   },
   {
-    "id": "sample-grand-theft-auto-vi",
-    "title": "侠盗猎车手 VI",
-    "titleOriginal": "Grand Theft Auto VI",
-    "slug": "grand-theft-auto-vi",
-    "coverUrl": "https://media.rawg.io/media/games/7e7/7e7e8a10b4fdc7219c7f1d5c24ef6f55.jpg",
-    "summary": "回到霓虹与海风交织的罪恶城，双主角故事线围绕抢劫、逃亡与城市势力展开。",
+    "id": "steam-4271500",
+    "title": "Teacher Waifu",
+    "titleOriginal": "Teacher Waifu",
+    "slug": "teacher-waifu",
+    "coverUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4271500/71ca017a43262d1bc869b64403fd3d63e831b268/header.jpg?t=1770484817",
+    "summary": "《老师女神》是一款精彩的拼图游戏，以魅力四射的女神老师和独特的学术氛围为特色！完成30个独特的关卡，解锁新的插画，欣赏每位老师的时尚细节。",
     "genres": [
-      "动作",
-      "开放世界"
+      "休闲"
     ],
     "platforms": [
-      "PlayStation",
-      "Xbox"
+      "PC"
     ],
-    "releaseMonth": "2026-05",
-    "releases": [
-      {
-        "region": "NA",
-        "date": "2026-05-26",
-        "status": "confirmed",
-        "source": "sample"
-      },
-      {
-        "region": "EU",
-        "date": "2026-05-26",
-        "status": "confirmed",
-        "source": "sample"
-      },
-      {
-        "region": "JP",
-        "date": null,
-        "status": "tbd",
-        "source": "sample"
-      },
-      {
-        "region": "KR",
-        "date": null,
-        "status": "tbd",
-        "source": "sample"
-      }
-    ],
-    "links": [
-      {
-        "label": "Rockstar",
-        "url": "https://www.rockstargames.com/",
-        "kind": "official"
-      }
-    ],
-    "sources": [
-      "Sample"
-    ]
-  },
-  {
-    "id": "sample-silk-song",
-    "title": "空洞骑士：丝之歌",
-    "titleOriginal": "Hollow Knight: Silksong",
-    "slug": "hollow-knight-silksong",
-    "coverUrl": "https://media.rawg.io/media/games/0b1/0b1e998e1f38d279f30d6c81c9e9ad8b.jpg",
-    "summary": "扮演 Hornet 探索全新的昆虫王国，在高速战斗和平台跳跃中揭开朝圣之路的秘密。",
-    "genres": [
-      "动作",
-      "类银河战士恶魔城",
-      "独立"
-    ],
-    "platforms": [
-      "PC",
-      "PlayStation",
-      "Xbox",
-      "Nintendo"
-    ],
-    "releaseMonth": "2026-09",
+    "releaseMonth": "2026-06",
     "releases": [
       {
         "region": "GLOBAL",
         "date": null,
         "status": "tbd",
-        "source": "sample"
+        "source": "Steam"
+      }
+    ],
+    "links": [
+      {
+        "label": "Steam",
+        "url": "https://store.steampowered.com/app/4271500",
+        "kind": "store"
+      }
+    ],
+    "sources": [
+      "Steam"
+    ]
+  },
+  {
+    "id": "steam-4273560",
+    "title": "Teacher Waifu 18+",
+    "titleOriginal": "Teacher Waifu 18+",
+    "slug": "teacher-waifu-18",
+    "coverUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4273560/0d839de5ac9c3667e33a841f2a3289afc2edcc11/header.jpg?t=1777717210",
+    "summary": "向您的收藏中添加 20 个新关卡，其中包含 18 岁以上的动漫谜题、自动通过和已完成绘画的画廊。完成所有谜题，获得 20 项新成就并享受令人兴奋的成人内容！",
+    "genres": [
+      "休闲"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "GLOBAL",
+        "date": null,
+        "status": "tbd",
+        "source": "Steam"
+      }
+    ],
+    "links": [
+      {
+        "label": "Steam",
+        "url": "https://store.steampowered.com/app/4273560",
+        "kind": "store"
+      }
+    ],
+    "sources": [
+      "Steam"
+    ]
+  },
+  {
+    "id": "steam-4072570",
+    "title": "Labyrinth's Depths",
+    "titleOriginal": "Labyrinth's Depths",
+    "slug": "labyrinths-depths",
+    "coverUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4072570/4f10187421c0c1ff3d6b2a45d226b1fb2af2be18/header.jpg?t=1780650007",
+    "summary": "Step into a dark survival horror rooted in Greek mythology. Navigate a deadly labyrinth and evade the relentless Minotaur while seeking a way to end the beast’s reign.",
+    "genres": [
+      "动作",
+      "冒险",
+      "独立"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "GLOBAL",
+        "date": "2026-06-05",
+        "status": "confirmed",
+        "source": "Steam"
+      }
+    ],
+    "links": [
+      {
+        "label": "Steam",
+        "url": "https://store.steampowered.com/app/4072570",
+        "kind": "store"
+      }
+    ],
+    "sources": [
+      "Steam"
+    ]
+  },
+  {
+    "id": "steam-3791870",
+    "title": "Xeno Swarm - 异虫强袭",
+    "titleOriginal": "Xeno Swarm - 异虫强袭",
+    "slug": "xeno-swarm-",
+    "coverUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3791870/b6c63a3f72270bee1cab951f77e2af4c6a5a312b/header.jpg?t=1780277740",
+    "summary": "《异虫强袭》是一款硬核横版飞行射击游戏，和你的伙伴一起迎战铺天盖地的异形虫群，在异星战场上和巨型BOSS展开生死对决，重温子弹横飞的爽快！",
+    "genres": [
+      "动作",
+      "冒险",
+      "独立"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "GLOBAL",
+        "date": "2026-06-05",
+        "status": "confirmed",
+        "source": "Steam"
+      }
+    ],
+    "links": [
+      {
+        "label": "Steam",
+        "url": "https://store.steampowered.com/app/3791870",
+        "kind": "store"
+      }
+    ],
+    "sources": [
+      "Steam"
+    ]
+  },
+  {
+    "id": "steam-4733720",
+    "title": "Terminal Cursor Soundtrack",
+    "titleOriginal": "Terminal Cursor Soundtrack",
+    "slug": "terminal-cursor-soundtrack",
+    "coverUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4733720/0862dfcf759d30f0d8e36ae2a6e83569459b63bf/header.jpg?t=1779917066",
+    "summary": "Terminal Cursor Original Soundtrack delivers eight high‑energy electronic tracks by David‑Ștefan Horecica, crafted to match the game’s fast, chaotic, precision‑driven action. Intense rhythms and atmospheric builds capture pure speed and constant motion.",
+    "genres": [],
+    "platforms": [
+      "PC"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "GLOBAL",
+        "date": "2026-06-05",
+        "status": "confirmed",
+        "source": "Steam"
+      }
+    ],
+    "links": [
+      {
+        "label": "Steam",
+        "url": "https://store.steampowered.com/app/4733720",
+        "kind": "store"
+      }
+    ],
+    "sources": [
+      "Steam"
+    ]
+  },
+  {
+    "id": "steam-4414550",
+    "title": "Peril in Prymkos",
+    "titleOriginal": "Peril in Prymkos",
+    "slug": "peril-in-prymkos",
+    "coverUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4414550/5753cee24f51f15af05294a36708e7e44b058b79/header.jpg?t=1776630333",
+    "summary": "Embark on a quest through the magical world of Prymkos. Explore ancient ruins, uncover hidden secrets, and face the mysterious Priests of Shaana in this story-driven fantasy RPG.",
+    "genres": [
+      "冒险",
+      "休闲",
+      "角色扮演"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "GLOBAL",
+        "date": "2026-06-05",
+        "status": "confirmed",
+        "source": "Steam"
       }
     ],
     "links": [
       {
         "label": "官网",
-        "url": "https://hollowknightsilksong.com/",
+        "url": "https://www.dotkgaming.com/",
         "kind": "official"
       },
       {
         "label": "Steam",
-        "url": "https://store.steampowered.com/",
+        "url": "https://store.steampowered.com/app/4414550",
         "kind": "store"
       }
     ],
     "sources": [
-      "Sample"
+      "Steam"
     ]
   },
   {
-    "id": "sample-wuthering-waves",
-    "title": "鸣潮",
-    "titleOriginal": "Wuthering Waves",
-    "slug": "wuthering-waves",
-    "coverUrl": "https://media.rawg.io/media/games/6fb/6fbd390fd0728c190bd36f7d5d9d6b2b.jpg",
-    "summary": "开放世界动作 RPG，围绕共鸣者、残象与灾后世界展开，持续推出新区域与角色版本。",
+    "id": "steam-4627740",
+    "title": "Death Standing",
+    "titleOriginal": "Death Standing",
+    "slug": "death-standing",
+    "coverUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4627740/14687bb46004787be62072801da9c0d69f87af51/header.jpg?t=1779436135",
+    "summary": "Death Standing is the first of its kind 'Stand' type of game, where the player has to do nothing but hold still for a set amount of time.",
     "genres": [
-      "动作角色扮演",
-      "开放世界"
+      "休闲",
+      "独立",
+      "模拟"
     ],
     "platforms": [
-      "PC",
-      "Mobile"
+      "PC"
     ],
-    "releaseMonth": "2026-07",
+    "releaseMonth": "2026-06",
     "releases": [
       {
-        "region": "CN",
-        "date": "2026-07-01",
+        "region": "GLOBAL",
+        "date": "2026-06-05",
         "status": "confirmed",
-        "source": "sample"
-      },
-      {
-        "region": "NA",
-        "date": "2026-07-01",
-        "status": "confirmed",
-        "source": "sample"
-      },
-      {
-        "region": "JP",
-        "date": "2026-07-01",
-        "status": "confirmed",
-        "source": "sample"
-      },
-      {
-        "region": "KR",
-        "date": "2026-07-01",
-        "status": "confirmed",
-        "source": "sample"
+        "source": "Steam"
       }
     ],
     "links": [
       {
-        "label": "官网",
-        "url": "https://wutheringwaves.kurogames.com/",
-        "kind": "official"
-      },
-      {
-        "label": "TapTap",
-        "url": "https://www.taptap.cn/",
+        "label": "Steam",
+        "url": "https://store.steampowered.com/app/4627740",
         "kind": "store"
       }
     ],
     "sources": [
-      "Sample"
+      "Steam"
+    ]
+  },
+  {
+    "id": "steam-4798790",
+    "title": "李商隐：青袍玉珂传 Demo",
+    "titleOriginal": "李商隐：青袍玉珂传 Demo",
+    "slug": "demo",
+    "coverUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4798790/29324e96520a88d53ee02a9798298e1fb199845c/header.jpg?t=1780503287",
+    "summary": "“涧底群松难见日，衰世文章不值钱。”这款古风恋爱文字冒险游戏，在晚唐历史的基础上进行了戏剧化改编。你将扮演李商隐这位才华横溢却命运多舛的贫寒少年，在恶劣的世道挣扎求存，在寒门与豪门的斗争中进行艰难抉择，一路上也会有红颜知己相伴。本作对于角色的塑造复杂立体，而非分出绝对的正邪。",
+    "genres": [
+      "角色扮演"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "GLOBAL",
+        "date": "2026-06-05",
+        "status": "confirmed",
+        "source": "Steam"
+      }
+    ],
+    "links": [
+      {
+        "label": "Steam",
+        "url": "https://store.steampowered.com/app/4798790",
+        "kind": "store"
+      }
+    ],
+    "sources": [
+      "Steam"
+    ]
+  },
+  {
+    "id": "steam-3420020",
+    "title": "Abyss Born",
+    "titleOriginal": "Abyss Born",
+    "slug": "abyss-born",
+    "coverUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3420020/6bcd749b2f6d3c3310696e48aacf598c2bab3592/header.jpg?t=1778445497",
+    "summary": "Abyss Born is a single-player dark action RPG with survival and dungeon crawler elements. Fight various monsters, explore dangerous dungeons, trade with allies and complete quests to face evil.",
+    "genres": [
+      "动作",
+      "冒险",
+      "独立",
+      "角色扮演",
+      "策略",
+      "抢先体验"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "GLOBAL",
+        "date": "2026-06-05",
+        "status": "confirmed",
+        "source": "Steam"
+      }
+    ],
+    "links": [
+      {
+        "label": "Steam",
+        "url": "https://store.steampowered.com/app/3420020",
+        "kind": "store"
+      }
+    ],
+    "sources": [
+      "Steam"
+    ]
+  },
+  {
+    "id": "steam-4806000",
+    "title": "Waiting for Heaven Demo",
+    "titleOriginal": "Waiting for Heaven Demo",
+    "slug": "waiting-for-heaven-demo",
+    "coverUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4806000/481c2597a79700248ecb5eb0f575d1746e839c1f/header.jpg?t=1780568923",
+    "summary": "Waiting for Heaven is a psychological first-person-horror experience about waiting at a lonely bus stop between life and death. Every decision counts. Your actions, patience, and behavior determine whether the final bus takes you to Heaven, Hell, or somewhere far worse.",
+    "genres": [
+      "休闲",
+      "独立",
+      "模拟"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "releaseMonth": "2026-06",
+    "releases": [
+      {
+        "region": "GLOBAL",
+        "date": "2026-06-05",
+        "status": "confirmed",
+        "source": "Steam"
+      }
+    ],
+    "links": [
+      {
+        "label": "Steam",
+        "url": "https://store.steampowered.com/app/4806000",
+        "kind": "store"
+      }
+    ],
+    "sources": [
+      "Steam"
     ]
   }
 ]

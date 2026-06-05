@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-05T06:21:49.365Z",
-  "mode": "fallback",
+  "generatedAt": "2026-06-05T09:15:22.116Z",
+  "mode": "partial",
   "sources": [
     {
       "name": "IGDB",
@@ -13,19 +13,9 @@
       "message": "未配置 RAWG_API_KEY"
     },
     {
-      "name": "IGDB",
-      "status": "missing-key",
-      "message": "未配置 IGDB_CLIENT_ID / IGDB_CLIENT_SECRET"
-    },
-    {
-      "name": "RAWG",
-      "status": "missing-key",
-      "message": "未配置 RAWG_API_KEY"
-    },
-    {
-      "name": "Sample",
-      "status": "fallback",
-      "message": "正在使用内置样例数据"
+      "name": "Steam",
+      "status": "ok",
+      "message": "读取 12 款即将发售游戏（us/jp/cn 区）"
     }
   ]
 }

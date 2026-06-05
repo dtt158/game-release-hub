@@ -184,7 +184,7 @@ export function App() {
             </div>
           ))}
           <p className="attribution">
-            RAWG 数据和图片需保留来源链接；IGDB/RAWG 密钥配置在 GitHub Actions Secrets 中。
+            数据来源：IGDB · RAWG · Steam。RAWG 数据和图片需保留来源链接；IGDB/RAWG 密钥配置在 GitHub Actions Secrets 中；Steam 数据免费获取，覆盖 US/JP/CN 区。
           </p>
         </aside>
 
